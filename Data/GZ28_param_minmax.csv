@@ -1,0 +1,29 @@
+,ParamName,AbsMaxDiff,LogFlag,FiducialVal,MinVal,MaxVal,Description
+0,Omega0,0.2,0,0.3,0.1,0.5,OmegaMatter
+1,sigma8,0.2,0,0.8,0.6,1.0,sigma8
+2,WindEnergyIn1e51erg,4.0,1,3.6,0.9,14.4,ASN1 - galactic winds energy
+3,RadioFeedbackFactor,4.0,1,1.0,0.25,4.0,AAGN1 - AGN FB kinetic mode energy
+4,VariableWindVelFactor,2.0,1,7.4,3.7,14.8,ASN2 - galactic winds speed
+5,RadioFeedbackReiorientationFactor,2.0,1,20.0,10.0,40.0,AAGN2 - AGN FB kinetic mode burstiness
+6,OmegaBaryon,0.02,0,0.049,0.029,0.069,OmegaBaryon
+7,HubbleParam,0.2,0,0.6711,0.4711,0.8711,Hubble parameter
+8,n_s,0.2,0,0.9624,0.7624,1.1624,power spectrum spectral index
+9,MaxSfrTimescale,2.0,1,2.27,1.135,4.54,gas consumption timescale
+10,FactorForSofterEQS,3.0,1,0.3,0.1,0.9,softening factor for SH03 eEOS
+11,IMFslope,0.5,0,-2.3,-2.8,-1.8,IMF slope above 1Msun
+12,SNII_MinMass_Msun,4.0,0,8.0,4.0,12.0,minimum stellar mass that goes SN
+13,ThermalWindFraction,4.0,1,0.1,0.025,0.4,fraction of wind energy injected thermally (versus kinetically)
+14,VariableWindSpecMomentum,2000.0,0,0.0,0.0,4000.0,wind momentum per unit star-formation
+15,WindFreeTravelDensFac,10.0,1,0.05,0.005,0.5,density of wind recoupling
+16,MinWindVel,200.0,0,350.0,150.0,550.0,wind speed floor
+17,WindEnergyReductionFactor,4.0,1,0.25,0.0625,1.0,magnitude of wind energy dependence on metallicity
+18,WindEnergyReductionMetallicity,4.0,1,0.002,0.0005,0.008,metallicity at which wind energy pivots
+19,WindEnergyReductionExponent,1.0,0,2.0,1.0,3.0,sharpness of wind energy dependence on metallicity
+20,WindDumpFactor,0.4,0,0.6,0.2,1.0,(1 minus metal loading of winds)
+21,SeedBlackHoleMass,3.16,1,8e-05,2.5316e-05,0.0002528,seed BH mass
+22,BlackHoleAccretionFactor,4.0,1,1.0,0.25,4.0,Bondi rate multiplier
+23,BlackHoleEddingtonFactor,10.0,1,1.0,0.1,10.0,Eddington rate multiplier for the BH accretion rate limiter
+24,BlackHoleFeedbackFactor,4.0,1,0.1,0.025,0.4,high-accretion mode feedback efficiency
+25,BlackHoleRadiativeEfficiency,4.0,1,0.2,0.05,0.8,BH radiative efficiency
+26,QuasarThreshold,31.6,1,0.002,6.33e-05,0.0632,Eddington ratio for transition between BH feedback modes
+27,QuasarThresholdPower,2.0,0,2.0,0.0,4.0,power-law in Weinberger+ 2017 eq.5 - steepness of mass transition between AGN feedback modes

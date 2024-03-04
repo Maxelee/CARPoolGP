@@ -30,7 +30,7 @@ class Emulator:
         self.losses = []
     
 
-    def train(self, params=None, learning_rate=0.0, max_iterations=1000):
+    def train(self, params=None, learning_rate=0.0, max_iterations=1000, threshold=8):
         """
         Trains the emulator.
 
@@ -41,7 +41,6 @@ class Emulator:
             Keyword arguments for the emulator.
         """
         # TODO: Implement break if params is None
-        loss_list = []
         if params is None:
             if self.params is None:
                 params = {"log_scaleV"   :0.1*np.ones(self.param_dimensions),
@@ -59,23 +58,32 @@ class Emulator:
     
             else:
                 params = self.params
-        
-        opt = optax.sgd(learning_rate=learning_rate)
+        self.threshold=threshold
+        # opt = optax.sgd(learning_rate=learning_rate, momentum=0.9)#, nesterov=True)
+        opt = optax.amsgrad(learning_rate=learning_rate)
+        # opt = optax.adamax(learning_rate=learning_rate)
         opt_state = opt.init(params)
-        self.param_evolution = []
+        try:
+            self.param_evolution[0]
+            self.losses[0]
+        except:  
+            self.param_evolution = []
+            self.losses = [np.inf]
         Y = jnp.concatenate([self.Simulations.quantities, self.Surrogates.quantities])
         for i in range(max_iterations):
             loss, grads = CARPoolProcess.loss(params, 
                                                   jnp.array(self.Simulations.parameters), 
                                                   jnp.array(self.Surrogates.parameters), 
-                                                  Y)
-            updates, opt_state = opt.update(grads, opt_state)
+                                                  Y, threshold=self.threshold)
+            updates, opt_state = opt.update(grads, opt_state, params)
             params = optax.apply_updates(params, updates)
             self.param_evolution.append(params)
             # self.check_params(params) # TODO: Implement check_params
-            loss_list.append(loss)
+            self.losses.append(loss)
+            # if np.abs(np.diff(self.losses)[-1]) < 1e-3:
+            #     print('Converged')
+            #     break
         self.params = params
-        self.losses.append(loss_list)
         return params
 
     def predict(self, desired_parameters):
@@ -100,17 +108,17 @@ class Emulator:
         
         cov = CARPoolProcess.build_CARPoolCov(self.params, 
                                               self.Simulations.parameters, 
-                                              self.Surrogates.parameters) 
+                                              self.Surrogates.parameters, threshold=self.threshold) 
         pred_cov = CARPoolProcess.build_CARPoolCov(self.params, 
                                                    np.concatenate((desired_parameters,
                                                                     self.Simulations.parameters)), 
                                                     self.Surrogates.parameters, 
-                                                    noise=None)
+                                                    noise=None, threshold=self.threshold)
         Y = jnp.concatenate([self.Simulations.quantities, self.Surrogates.quantities])
         prediction, covariance = CARPoolProcess.predict(Y, 
                                                         cov, 
                                                         pred_cov, 
-                                                        np.exp(self.params["log_mean"]))
+                                                        self.params["log_mean"])
         return prediction, covariance   
     
         
