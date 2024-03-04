@@ -1,9 +1,18 @@
-Welcome to CAMELS-zoomGZ documentation!
+Welcome to CARPoolGP documentation! 
 ===================================
 
-**CAMELS-zoom(GroupZoom)** is a new "hump" of the CAMELS project https://camels.readthedocs.io/en/latest/index.html.
+CARPoolGP is an sampling and regression technique developed in ARXIV LINK HERE. The basic idea, is that when we can force correlations between samples in parameter space, we can reduce variance on emulated quantities. CARPoolGP leverages the CARPool method of https://arxiv.org/abs/2009.08970 and Gaussian process regression. 
 
-CAMELS-zoomGZ includes a set of 768 zoom-in simulations of massive halos, spanning 28 astrophysical and cosmological parameters in the IllustrisTNG parameter space. Unlike standard CAMELS sets, which sample parameter space using a Latin hypercube or Sobol sequence, CAMELS-zoomGZ uses a novel sampling and emulation method *CARPoolGP*. More information on CARPoolGP can be found here:...., and in our manuscript here: ...
+CARPoolGP can be used:
+
+    1. To emulate a quantity throughout some parameter space given preexisting samples
+    2. Learn the best place in parameter space to generate new samples at (Active Learning)
+
+We provide here a tutorial with a one dimensional toy example, an application using simulations from GZ here, and a an application to emulate profiles again using the simulations of:
+
+
+If using in your own work, please :doc:`cite` our work! 
+
 
 
 .. note::
@@ -12,11 +21,11 @@ CAMELS-zoomGZ includes a set of 768 zoom-in simulations of massive halos, spanni
 
 Contents
 --------
-See the :doc:`simulations` section for details about the suite, including the process for :doc:`access`. We include a brief tutorial for interacting with the simulation data in :doc:`tutorial`.
+See the :doc:`installation` section for details on getting started with CARPoolGP. To find a brief description of the theoretical framework for CARPoolGP see :doc:`theory`. We include tutorials in the :doc:`tutorial` section. 
 
 .. toctree::
 
-   simulations
-   access
+   installation
+   theory
    tutorial
    contact
