@@ -1,6 +1,6 @@
 # CARPoolGP
 
-For more information see: [Read the docs](carpoolgp.readthedocs.io)
+For more information see: [Read the docs](https://carpoolgp.readthedocs.io/en/latest/)
 
 To install use:
 
