@@ -13,3 +13,6 @@ Then cd into the directory. To get the environment setup run:
 this should create a conda environment called ```jax``` which you can activate with ```conda activate jax```
 
 Then, you can run the notebooks. 
+
+[![DOI](https://zenodo.org/badge/673514195.svg)](https://zenodo.org/doi/10.5281/zenodo.10814966)
+
