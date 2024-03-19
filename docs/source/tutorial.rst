@@ -1,3 +1,6 @@
+Tutorials
+=====
+
 .. container:: cell code
 
    .. code:: python
