@@ -114,7 +114,7 @@ Tutorials
 
    .. container:: output display_data
 
-      .. image:: vertopal_96525972858a463c9b11e36decb52690/15cd34a90a316fc60a9e4c9c95eaff9d3d2ce59f.png
+      .. image:: 15cd34a90a316fc60a9e4c9c95eaff9d3d2ce59f.png
 
 .. container:: cell markdown
 
@@ -168,7 +168,7 @@ Tutorials
 
    .. container:: output display_data
 
-      .. image:: vertopal_96525972858a463c9b11e36decb52690/8de8b253c36b46a7cbcd0f63c1aed40716a39cfe.png
+      .. image:: 8de8b253c36b46a7cbcd0f63c1aed40716a39cfe.png
 
 .. container:: cell markdown
 
@@ -237,7 +237,7 @@ Tutorials
 
    .. container:: output display_data
 
-      .. image:: vertopal_96525972858a463c9b11e36decb52690/bf6f18a661b92e39ec304e5e3bddc88c4a6dcfa8.png
+      .. image:: bf6f18a661b92e39ec304e5e3bddc88c4a6dcfa8.png
 
 .. container:: cell markdown
 
@@ -368,7 +368,7 @@ Tutorials
 
    .. container:: output display_data
 
-      .. image:: vertopal_96525972858a463c9b11e36decb52690/7354b0b696bff5df5cf064e142a2bfa6c51acf0d.png
+      .. image:: 7354b0b696bff5df5cf064e142a2bfa6c51acf0d.png
 
 .. container:: cell markdown
 
@@ -434,7 +434,7 @@ Tutorials
 
    .. container:: output display_data
 
-      .. image:: vertopal_96525972858a463c9b11e36decb52690/ca612b0fda49340e82b8858935a30a0151ae95e2.png
+      .. image:: ca612b0fda49340e82b8858935a30a0151ae95e2.png
 
 .. container:: cell markdown
 
