@@ -28,7 +28,7 @@ isolated base samples to surrogates, the parameter space can be sampled
 more densely while borrowing the variance reduction achieved at
 parameter islands.
 
-.. image:: CARPoolGP_cartoon.png
+.. image:: CARPoolGP_cartoon.pdf
    :width: 600
 
 We present a simplistic picture of the CARPoolGP sampling method In the above figure. 
