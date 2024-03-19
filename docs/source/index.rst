@@ -1,7 +1,7 @@
 Welcome to CARPoolGP documentation! 
 ===================================
 
-CARPoolGP is an sampling and regression technique developed in ARXIV LINK HERE. The basic idea, is that when we can force correlations between samples in parameter space, we can reduce variance on emulated quantities. CARPoolGP leverages the CARPool method of https://arxiv.org/abs/2009.08970 and Gaussian process regression. 
+CARPoolGP is an sampling and regression technique developed in https://arxiv.org/abs/2403.10609 . The basic idea, is that when we can force correlations between samples in parameter space, we can reduce variance on emulated quantities. CARPoolGP leverages the CARPool method of https://arxiv.org/abs/2009.08970 and Gaussian process regression. 
 
 CARPoolGP can be used:
 
