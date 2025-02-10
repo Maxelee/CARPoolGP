@@ -14,7 +14,7 @@ import jax.numpy as jnp
 import optax
 import jax
 jax.config.update("jax_enable_x64", True)
-from src import CARPoolProcess
+from CARPoolGP import CARPoolProcess
 
 
 class Emulator:
@@ -59,7 +59,7 @@ class Emulator:
             else:
                 params = self.params
         self.threshold=threshold
-        # opt = optax.sgd(learning_rate=learning_rate, momentum=0.9)#, nesterov=True)
+        # opt = optax.sgd(learning_rate=learning_rate)#, momentum=0.9)#, nesterov=True)
         opt = optax.amsgrad(learning_rate=learning_rate)
         # opt = optax.adamax(learning_rate=learning_rate)
         opt_state = opt.init(params)

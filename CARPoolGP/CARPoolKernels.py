@@ -25,42 +25,51 @@ class VWKernel(kernels.Kernel):
     Custom kernel for carpool that can take N-dimensional scale. This is realy just a squared 
     exponential kernel
     """
-    def __init__(self, amp, scale):
-        self.scale = jnp.atleast_1d(scale)
-        self.amp   = jnp.atleast_1d(amp)
+    # def __init__(self, amp, scale):
+    #     self.scales = jnp.atleast_1d(scale)
+    #     self.amp   = jnp.atleast_1d(amp)
+    scales: jax.Array
+    amp: jax.Array
 
     def evaluate(self, X1, X2):
         x = jnp.atleast_1d(jnp.sqrt((X2 - X1)**2))
         # return jnp.prod(self.amp * jnp.exp(-0.5 * x**2 / self.scale**2))
-        return jnp.prod(self.amp * jnp.exp(-0.5 * x**2/self.scale**2))
+        return jnp.prod(self.amp * jnp.exp(-0.5 * x**2/self.scales**2))
     
 class WKernel(kernels.Kernel):
     """
     Custom kernel for carpool that can take N-dimensional scale. This is realy just a squared 
     exponential kernel
     """
-    def __init__(self, amp, scale):
-        self.scale = jnp.atleast_1d(scale)
-        self.amp   = jnp.atleast_1d(amp)
+    # def __init__(self, amp, scale):
+    #     self.scales = jnp.atleast_1d(scale)
+    #     self.amp   = jnp.atleast_1d(amp)
+    scales: jax.Array
+    amp: jax.Array
+    scales2: jax.Array
+    amp2: jax.Array
 
     def evaluate(self, X1, X2):
         x = jnp.atleast_1d(jnp.sqrt((X2 - X1)**2))
-        arg = jnp.sqrt(3) + x/self.scale
-        return jnp.prod( (1 + arg)*jnp.exp(-arg))
+        arg = jnp.sqrt(3) + x/self.scales
+        return jnp.prod(self.amp* (1 + arg)*jnp.exp(-arg) * self.amp2 * jnp.exp(-0.5 * x**2/self.scales2**2))
     
 class XKernel(kernels.Kernel):
     """
     Custom kernel for carpool that can take N-dimensional scale
     """
-    def __init__(self, amp, scale, deltaP):
-        self.scale   =jnp.atleast_1d(scale)
-        self.deltaP  =jnp.atleast_1d(deltaP)
-        self.amp     = jnp.atleast_1d(amp)
-
+    # def __init__(self, amp, scale, deltaP):
+    #     self.scales   =jnp.atleast_1d(scale)
+    #     self.deltaP  =jnp.atleast_1d(deltaP)
+    #     self.amp     = jnp.atleast_1d(amp)
+    scales: jax.Array
+    amp: jax.Array
+    deltaP: jax.Array
+    
     def evaluate(self, X1, X2):
         x = jnp.atleast_1d(jnp.sqrt((X2 - X1)**2))
         # return jnp.prod(self.amp*jnp.exp(-0.5 * (x**2 + self.deltaP)/self.scale))
-        return jnp.prod(self.amp * jnp.exp(-0.5 * (x**2 + self.deltaP)/self.scale**2))
+        return jnp.prod(self.amp * jnp.exp(-0.5 * (x**2 + self.deltaP)/self.scales**2))
     
 # class XKernel(kernels.Kernel):
 #     """
@@ -81,11 +90,12 @@ class EKernel(kernels.Kernel):
     Custom kernel for carpool that can take N-dimensional scale. This is realy just a linear 
     exponential kernel
     """
-    def __init__(self, scale):
-        self.scale = jnp.atleast_1d(scale)
+    # def __init__(self, scale):
+    #     self.scales = jnp.atleast_1d(scale)
+    scales: jax.Array
         
     def evaluate(self, X1, X2):
         x = jnp.atleast_1d(jnp.sqrt((X2 - X1)**2))
-        return jnp.prod(jnp.exp(-0.5 * x/ self.scale**2))
+        return jnp.prod(jnp.exp(-0.5 * x/ self.scales**2))
     
 
