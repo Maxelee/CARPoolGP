@@ -20,13 +20,15 @@ from CARPoolGP import CARPoolProcess
 class Emulator:
     def __init__(self, 
                  Simulations, 
-                 Surrogates):
+                 Surrogates, 
+                 corr=True):
         
         self.Simulations = Simulations
         self.Surrogates = Surrogates
         self.param_dimensions = self.Simulations.parameter_dimensions
         self.Surrogate_locs = np.unique(Surrogates.parameters, axis=0).reshape(-1, self.param_dimensions)
         self.params = None
+        self.corr = corr
         self.losses = []
     
 
@@ -71,10 +73,17 @@ class Emulator:
             self.losses = [np.inf]
         Y = jnp.concatenate([self.Simulations.quantities, self.Surrogates.quantities])
         for i in range(max_iterations):
-            loss, grads = CARPoolProcess.loss(params, 
-                                                  jnp.array(self.Simulations.parameters), 
-                                                  jnp.array(self.Surrogates.parameters), 
-                                                  Y, threshold=self.threshold)
+            if self.corr == True:
+                loss, grads = CARPoolProcess.loss(params, 
+                                                      jnp.array(self.Simulations.parameters), 
+                                                      jnp.array(self.Surrogates.parameters), 
+                                                      Y, threshold=self.threshold)
+            else:
+
+                loss, grads = CARPoolProcess.loss_nocorr(params, 
+                                                      jnp.array(self.Simulations.parameters), 
+                                                      jnp.array(self.Surrogates.parameters), 
+                                                      Y, threshold=self.threshold)
             updates, opt_state = opt.update(grads, opt_state, params)
             params = optax.apply_updates(params, updates)
             self.param_evolution.append(params)

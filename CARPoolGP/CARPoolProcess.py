@@ -26,6 +26,51 @@ def loss(params, theta, surrogate_theta, Y, threshold):
 
 
 @jax.jit
+@jax.value_and_grad
+def loss_nocorr(params, theta, surrogate_theta, Y, threshold):
+    """
+    Return the loss and gradient of the loss for gradient descent
+    """
+    cov = build_CARPoolCov_nocorr(params, theta, surrogate_theta, threshold=threshold)
+    
+    # Compute liklihood
+    alpha, scale_tril = decomp(cov, Y, params["log_mean"])
+    L = log_liklihood(scale_tril, alpha)
+
+    return -L
+
+@jax.jit
+def build_CARPoolCov_nocorr(params, theta, surrogate_theta, noise=0, threshold=8):
+    N_theta     = len(theta)
+    N_surrogates = len(surrogate_theta)
+    
+    scaleV = params["log_scaleV"]
+    scaleV2 = params["log_scaleV2"]
+
+    scaleM = params["log_scaleM"]
+
+    # Build Kernels with current parameter values
+    Vkernel = CARPoolKernels.WKernel(jnp.exp(params["log_ampV"]), scaleV, jnp.exp(params["log_ampV2"]), scaleV2)
+    
+    V       = Vkernel(theta, theta)
+    W       = Vkernel(surrogate_theta, surrogate_theta)
+    X       = Vkernel(theta, surrogate_theta)
+    
+    C       = jnp.block([[V, X],[X.T, W]])
+    
+    if noise is None:
+        return C
+    
+    # Build the noise fluctutaions
+    IsigmaV = jnp.exp(params["log_jitterV"])**2 * jnp.eye(N_theta)
+    IsigmaW = jnp.exp(params["log_jitterV"])**2 * jnp.eye(N_surrogates)
+    M = jnp.zeros((N_theta, N_surrogates))
+    noise = jnp.block([[IsigmaV, M], [M.T, IsigmaW]])
+
+    cov   = C + noise
+    return cov
+
+@jax.jit
 def build_CARPoolCov(params, theta, surrogate_theta, noise=0, threshold=8):
     N_theta     = len(theta)
     N_surrogates = len(surrogate_theta)
