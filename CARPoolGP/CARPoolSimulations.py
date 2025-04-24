@@ -4,9 +4,12 @@ This should be simple class that holds on to the parameters and quantities that 
 import numpy as np
 
 class Simulation:
-    def __init__(self, parameters = 0, quantities = 0):
+    def __init__(self, parameters = 0, quantities = 0, lbs=None, ubs=None, fids=None):
         self.parameters = parameters
         self.quantities = quantities
+        self.lbs=lbs
+        self.ubs=ubs
+        self.fids=fids
 
     @property
     def parameters(self):
@@ -35,7 +38,20 @@ class Simulation:
         self.quantities = self.quantities[:index]
         if return_popped:
             return to_return
-        
+
+    def normalize_X(self, val, param=None):
+        if any(value is None for value in [self.fids, self.lbs, self.ubs]):
+            raise ValueError("must define lbs, ubs, fids")
+        if param is None:
+            return ((val - self.lbs) / (self.ubs-self.lbs))
+        else:
+            return ((val - self.lbs[param]) / (self.ubs[param] - self.lbs[param]))
 
 
-    
+    def unnormalize_X(self, val, param=None):
+        if any(value is None for value in [self.fids, self.lbs, self.ubs]):
+            raise ValueError("must define lbs, ubs, fids")
+        if param is None:
+            return (val)* (self.ubs-self.lbs) + self.lbs
+        else:
+            return (val) * (self.ubs[param] - self.lbs[param]) + self.lbs[param]

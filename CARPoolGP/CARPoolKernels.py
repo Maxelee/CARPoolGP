@@ -20,6 +20,31 @@ import jax
 jax.config.update("jax_enable_x64", True)
 
 
+class QKernel(kernels.Kernel):
+    """
+    Custom kernel for carpool that can take N-dimensional scale. This is realy just a squared 
+    exponential kernel
+    """
+    # def __init__(self, amp, scale):
+    #     self.scales = jnp.atleast_1d(scale)
+    #     self.amp   = jnp.atleast_1d(amp)
+    amp: jax.Array
+    l1: jax.Array
+    l2: jax.Array
+    q: jax.Array
+    D: jax.Array
+    
+    def evaluate(self, X1, X2):
+        X1 = X1 / self.l1
+        X2 = X2 / self.l2
+
+        x = jnp.atleast_1d(jnp.abs(jnp.sqrt((X2 - X1))))
+        j = self.q#jnp.floor(36.0/2) + self.q + 1
+        #fmax = jnp.max(0.0, 1.0 - x)**(j + self.q)
+        K = jnp.abs((1-x)**(j+2) * (1 + (j+2)*x + (j**2 + 4 * j + 4) / (3) * x**2))
+        return jnp.prod(self.amp * K) 
+
+
 class VWKernel(kernels.Kernel):
     """
     Custom kernel for carpool that can take N-dimensional scale. This is realy just a squared 

@@ -10,6 +10,7 @@ Emu.train(**kwargs)
 prediction, covariance = Emu.predict(desired_parameters)
 """
 import numpy as np
+from tqdm import tqdm
 import jax.numpy as jnp
 import optax
 import jax
@@ -21,7 +22,8 @@ class Emulator:
     def __init__(self, 
                  Simulations, 
                  Surrogates, 
-                 corr=True):
+                 corr=True, 
+                 lbs=None, ubs=None, fids=None):
         
         self.Simulations = Simulations
         self.Surrogates = Surrogates
@@ -30,6 +32,9 @@ class Emulator:
         self.params = None
         self.corr = corr
         self.losses = []
+        self.fids = fids
+        self.lbs=lbs
+        self.ubs=ubs
     
 
     def train(self, params=None, learning_rate=0.0, max_iterations=1000, threshold=8):
@@ -61,9 +66,9 @@ class Emulator:
             else:
                 params = self.params
         self.threshold=threshold
-        # opt = optax.sgd(learning_rate=learning_rate)#, momentum=0.9)#, nesterov=True)
-        opt = optax.amsgrad(learning_rate=learning_rate)
-        # opt = optax.adamax(learning_rate=learning_rate)
+        #opt = optax.sgd(learning_rate=learning_rate, momentum=0.8)#, nesterov=True)
+        #opt = optax.amsgrad(learning_rate=learning_rate)
+        opt = optax.adamax(learning_rate=learning_rate)
         opt_state = opt.init(params)
         try:
             self.param_evolution[0]
@@ -72,7 +77,7 @@ class Emulator:
             self.param_evolution = []
             self.losses = [np.inf]
         Y = jnp.concatenate([self.Simulations.quantities, self.Surrogates.quantities])
-        for i in range(max_iterations):
+        for i in tqdm(range(max_iterations)):
             if self.corr == True:
                 loss, grads = CARPoolProcess.loss(params, 
                                                       jnp.array(self.Simulations.parameters), 
@@ -114,15 +119,25 @@ class Emulator:
         if self.params is None:
             raise ValueError("Emulator has not been trained.")
         desired_parameters = np.atleast_2d(desired_parameters).reshape(-1, self.param_dimensions)
-        
-        cov = CARPoolProcess.build_CARPoolCov(self.params, 
-                                              self.Simulations.parameters, 
-                                              self.Surrogates.parameters, threshold=self.threshold) 
-        pred_cov = CARPoolProcess.build_CARPoolCov(self.params, 
-                                                   np.concatenate((desired_parameters,
-                                                                    self.Simulations.parameters)), 
-                                                    self.Surrogates.parameters, 
-                                                    noise=None, threshold=self.threshold)
+
+        if self.corr:
+            cov = CARPoolProcess.build_CARPoolCov(self.params, 
+                                                  self.Simulations.parameters, 
+                                                  self.Surrogates.parameters, threshold=self.threshold) 
+            pred_cov = CARPoolProcess.build_CARPoolCov(self.params, 
+                                                       np.concatenate((desired_parameters,
+                                                                        self.Simulations.parameters)), 
+                                                        self.Surrogates.parameters, 
+                                                        noise=None, threshold=self.threshold)
+        else:
+            cov = CARPoolProcess.build_CARPoolCov_nocorr(self.params, 
+                                                  self.Simulations.parameters, 
+                                                  self.Surrogates.parameters, threshold=self.threshold) 
+            pred_cov = CARPoolProcess.build_CARPoolCov_nocorr(self.params, 
+                                                       np.concatenate((desired_parameters,
+                                                                        self.Simulations.parameters)), 
+                                                        self.Surrogates.parameters, 
+                                                        noise=None, threshold=self.threshold)
         Y = jnp.concatenate([self.Simulations.quantities, self.Surrogates.quantities])
         prediction, covariance = CARPoolProcess.predict(Y, 
                                                         cov, 
@@ -151,6 +166,7 @@ class Emulator:
             Chi2 of the emulator.
         """
         return np.sum((data - model)**2/ np.sqrt(np.diag(cov)))
+
 
 class ActiveLearning(Emulator):
 
