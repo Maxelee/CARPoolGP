@@ -1,0 +1,404 @@
+absl-py @ file:///dev/shm/nix-build-py-absl-py-1.4.0.drv-0/nixbld3/spack-stage-py-absl-py-1.4.0-npqla43d77391rz732y73kxpvxzz6bwb/spack-src
+aiohttp @ file:///dev/shm/nix-build-py-aiohttp-3.8.4.drv-0/nixbld1/spack-stage-py-aiohttp-3.8.4-jqqnb9biagyml8dqb69645aafnxghlil/spack-src
+aiosignal @ file:///dev/shm/nix-build-py-aiosignal-1.2.0.drv-0/nixbld4/spack-stage-py-aiosignal-1.2.0-45h6lf3fr9l7c2qzj7rib3h48j8lsy8r/spack-src
+alabaster @ file:///dev/shm/nix-build-py-alabaster-0.7.13.drv-1/nixbld2/spack-stage-py-alabaster-0.7.13-9gqwhvmv7hj5x5cli22vfxp332y5g7sf/spack-src
+anyio @ file:///dev/shm/nix-build-py-anyio-3.6.2.drv-0/nixbld4/spack-stage-py-anyio-3.6.2-szi88x9sxas02kfwhyxqw46lvwlmhmq6/spack-src
+appdirs @ file:///dev/shm/nix-build-py-appdirs-1.4.4.drv-0/nixbld4/spack-stage-py-appdirs-1.4.4-k1xw0cp2f8ry9a23d870vmqrhv96n4q3/spack-src
+apptools @ file:///dev/shm/nix-build-py-apptools-4.5.0.drv-0/nixbld1/spack-stage-py-apptools-4.5.0-14rxhd340lrgrpd68q6q46kn8gf4skf0/spack-src
+argon2-cffi @ file:///dev/shm/nix-build-py-argon2-cffi-21.3.0.drv-0/nixbld4/spack-stage-py-argon2-cffi-21.3.0-b8pljv0z2jksfznixnya9fp6vxqakggr/spack-src
+argon2-cffi-bindings @ file:///dev/shm/nix-build-py-argon2-cffi-bindings-21.2.0.drv-0/nixbld3/spack-stage-py-argon2-cffi-bindings-21.2.0-xk200fdd5dmm88a1i8rnlndbg9fyfzh3/spack-src
+array_record==0.7.1
+arrow @ file:///dev/shm/nix-build-py-arrow-1.2.3.drv-0/nixbld1/spack-stage-py-arrow-1.2.3-h82adnxs074cjnf55k6f7mvx46k9va2v/spack-src
+arviz @ file:///dev/shm/nix-build-py-arviz-0.15.1.drv-0/nixbld2/spack-stage-py-arviz-0.15.1-ag5z7iya61vkx8lpg0iv5aib2s6risv4/spack-src
+asdf @ file:///dev/shm/nix-build-py-asdf-2.15.0.drv-0/nixbld1/spack-stage-py-asdf-2.15.0-ma0l6sq8s5kfrcd5via25vx94a964mp0/spack-src
+asdf_standard @ file:///dev/shm/nix-build-py-asdf-standard-1.0.3.drv-0/nixbld4/spack-stage-py-asdf-standard-1.0.3-10jghsv493nql8pnkcr8zyywg904m629/spack-src
+asdf_transform_schemas @ file:///dev/shm/nix-build-py-asdf-transform-schemas-0.3.0.drv-0/nixbld1/spack-stage-py-asdf-transform-schemas-0.3.0-nbhzcznc5w9mqdiq6apqy13sic6s1ddl/spack-src
+asdf_unit_schemas @ file:///dev/shm/nix-build-py-asdf-unit-schemas-0.1.0.drv-0/nixbld3/spack-stage-py-asdf-unit-schemas-0.1.0-qhr3fp04k3bc17gl531hx86jdifjksbi/spack-src
+astroid @ file:///dev/shm/nix-build-py-astroid-2.14.2.drv-0/nixbld1/spack-stage-py-astroid-2.14.2-50h30vj0cgh94h3gk8x6zlycf5431c2r/spack-src
+astropy @ file:///dev/shm/nix-build-py-astropy-5.1.drv-0/nixbld4/spack-stage-py-astropy-5.1-kq554ikimw4gy0qgxcsary5yvv576s19/spack-src
+asttokens @ file:///dev/shm/nix-build-py-asttokens-2.4.0.drv-0/nixbld1/spack-stage-py-asttokens-2.4.0-rkj342jshkq1axkfsa704vm4wpnh1q7s/spack-src
+astunparse @ file:///dev/shm/nix-build-py-astunparse-1.6.3.drv-1/nixbld3/spack-stage-py-astunparse-1.6.3-8gi7n8m82ls6rg70cznf3bvfsv2i96sj/spack-src
+async-timeout @ file:///dev/shm/nix-build-py-async-timeout-4.0.2.drv-1/nixbld2/spack-stage-py-async-timeout-4.0.2-5hiqdj9l515mpbpqac0c3qzm657hhd9j/spack-src
+attrs @ file:///dev/shm/nix-build-py-attrs-23.1.0.drv-0/nixbld3/spack-stage-py-attrs-23.1.0-p74ylvfd4i20nf63yffhc5vn3qxcsjdp/spack-src
+Automat @ file:///dev/shm/nix-build-py-automat-22.10.0.drv-0/nixbld3/spack-stage-py-automat-22.10.0-mz37bk35d10x9ssg2npprqfx4hmrdyls/spack-src
+autopep8 @ file:///dev/shm/nix-build-py-autopep8-1.7.0.drv-1/nixbld4/spack-stage-py-autopep8-1.7.0-hfxdvg5f1c7j11f65mgx6ph2pmygzywl/spack-src
+Babel @ file:///dev/shm/nix-build-py-babel-2.12.1.drv-1/nixbld3/spack-stage-py-babel-2.12.1-1w30li0aibj3jkja2ni16kr5zz7q6ym6/spack-src
+backcall @ file:///dev/shm/nix-build-py-backcall-0.2.0.drv-1/nixbld3/spack-stage-py-backcall-0.2.0-691wanffkz8a0kz5i0vl27wbvm0mrkrk/spack-src
+beautifulsoup4 @ file:///dev/shm/nix-build-py-beautifulsoup4-4.12.2.drv-0/nixbld1/spack-stage-py-beautifulsoup4-4.12.2-0q9xj3h2pvjs40s81349lijil3agi67y/spack-src
+beniget @ file:///dev/shm/nix-build-py-beniget-0.4.1.drv-0/nixbld1/spack-stage-py-beniget-0.4.1-by8dr3hmq9fknq2sh71zayp9kv30wfsb/spack-src
+bigfile @ file:///dev/shm/nix-build-py-bigfile-0.1.51.drv-0/nixbld4/spack-stage-py-bigfile-0.1.51-5hhffhkaxw55hpsws297iwzip6q76ssa/spack-src
+biopython @ file:///dev/shm/nix-build-py-biopython-1.81.drv-0/nixbld2/spack-stage-py-biopython-1.81-8xi1yaqxgbi4bgg3gppbh90g8mnv4w7l/spack-src
+black @ file:///dev/shm/nix-build-py-black-24.3.0.drv-0/nixbld4/spack-stage-py-black-24.3.0-fw0msxcjzg1nf78hcr9yznv8lmwcbkck/spack-src
+bleach @ file:///dev/shm/nix-build-py-bleach-6.0.0.drv-1/nixbld2/spack-stage-py-bleach-6.0.0-p0x1cmhfpxd0ldmnxpg7w2nddfzsrbxr/spack-src
+blessings @ file:///dev/shm/nix-build-py-blessings-1.6.drv-0/nixbld2/spack-stage-py-blessings-1.6-a7vs5rb47mwi3qv3sbvxhx7awy1cwyab/spack-src
+blinker @ file:///dev/shm/nix-build-py-blinker-1.6.2.drv-1/nixbld2/spack-stage-py-blinker-1.6.2-indp0kalwcbxkq1yxmbvw28chb6mgk4i/spack-src
+bokeh @ file:///dev/shm/nix-build-py-bokeh-3.3.1.drv-0/nixbld3/spack-stage-py-bokeh-3.3.1-20p9mvbr2l0ix06daafhz629k3475ca6/spack-src
+Bottleneck @ file:///dev/shm/nix-build-py-bottleneck-1.3.7.drv-1/nixbld1/spack-stage-py-bottleneck-1.3.7-szp9bspjj4b9qb8x692k9la86vql8h09/spack-src
+build @ file:///dev/shm/nix-build-py-build-1.0.3.drv-0/nixbld3/spack-stage-py-build-1.0.3-86qkgqf395n86fnq2b5dc65hv99aq2ik/spack-src
+cachetools @ file:///dev/shm/nix-build-py-cachetools-5.2.0.drv-1/nixbld4/spack-stage-py-cachetools-5.2.0-gb709ix4da6nx06sraprk2dlq9v7723w/spack-src
+cachey @ file:///dev/shm/nix-build-py-cachey-0.2.1.drv-0/nixbld1/spack-stage-py-cachey-0.2.1-8saz5rrcjbzwywrchf2d376x1b7h2xlx/spack-src
+calver @ file:///dev/shm/nix-build-py-calver-2022.6.26.drv-1/nixbld2/spack-stage-py-calver-2022.6.26-qv1vpr4wzh2rcmij8v8bvyfyqyqn7csg/spack-src
+CARPoolGP @ file:///mnt/home/mlee1/CARPoolGP
+certifi @ file:///dev/shm/nix-build-py-certifi-2023.7.22.drv-1/nixbld1/spack-stage-py-certifi-2023.7.22-pbij2gp9mbznxgibwd0byldyi8wgb82r/spack-src
+cffi @ file:///dev/shm/nix-build-py-cffi-1.15.1.drv-0/nixbld1/spack-stage-py-cffi-1.15.1-h05ffcvhrj41k0wlyvrzrihi0wr1hjvf/spack-src
+cfgv @ file:///dev/shm/nix-build-py-cfgv-3.4.0.drv-1/nixbld4/spack-stage-py-cfgv-3.4.0-l24bw1fg0j1r5a4rszlsr8631g6vvm2i/spack-src
+cftime @ file:///dev/shm/nix-build-py-cftime-1.0.3.4.drv-0/nixbld3/spack-stage-py-cftime-1.0.3.4-1clc0mq6yq6dn8r4lw4cr66k7vfy55n7/spack-src
+charset-normalizer @ file:///dev/shm/nix-build-py-charset-normalizer-3.3.0.drv-0/nixbld1/spack-stage-py-charset-normalizer-3.3.0-bza643636fsm6f9bjihr0qb7316ni3my/spack-src
+cheroot @ file:///dev/shm/nix-build-py-cheroot-8.3.0.drv-0/nixbld4/spack-stage-py-cheroot-8.3.0-aspn40xba9xffd0kx5aicrambvy0h3si/spack-src
+CherryPy @ file:///dev/shm/nix-build-py-cherrypy-18.1.1.drv-0/nixbld1/spack-stage-py-cherrypy-18.1.1-2bvxg75iv0dlkadi22dwwwhwiw1r5nwy/spack-src
+chex==0.1.88
+classylss @ file:///dev/shm/nix-build-py-classylss-0.2.9.drv-0/nixbld4/spack-stage-py-classylss-0.2.9-h78jbd36fzc3fgx6n6zwqz9d4i8ch1wx/spack-src
+click @ file:///dev/shm/nix-build-py-click-8.1.7.drv-1/nixbld1/spack-stage-py-click-8.1.7-38kj86cyk8vym32w7rmdclnj4747r5pr/spack-src
+cloudpickle @ file:///dev/shm/nix-build-py-cloudpickle-2.2.0.drv-1/nixbld3/spack-stage-py-cloudpickle-2.2.0-8qy12598d2bdlf9xhg9p7mqajhk37hvf/spack-src
+clu==0.0.12
+cmyt @ file:///dev/shm/nix-build-py-cmyt-1.1.2.drv-0/nixbld3/spack-stage-py-cmyt-1.1.2-x3kwynwmflp6hmma855pbky1h7x67cfq/spack-src
+colorama @ file:///dev/shm/nix-build-py-colorama-0.4.6.drv-0/nixbld1/spack-stage-py-colorama-0.4.6-5yc5b0fiarj85diz8pg9ym750lb67f52/spack-src
+colorspacious @ file:///dev/shm/nix-build-py-colorspacious-1.1.2.drv-0/nixbld2/spack-stage-py-colorspacious-1.1.2-9y4yq0hwyjv479pdb8i9lv20s0hbzsix/spack-src
+colossus==1.3.8
+comet-ml==3.44.3
+comm @ file:///dev/shm/nix-build-py-comm-0.1.4.drv-0/nixbld4/spack-stage-py-comm-0.1.4-xmflhb0az2hq3grn5n8sdn7lfd07j69f/spack-src
+configobj @ file:///dev/shm/nix-build-py-configobj-5.0.6.drv-0/nixbld1/spack-stage-py-configobj-5.0.6-lcm07dvczq9c8k9xs1ya21xxq5hk3bwv/spack-src
+cons @ file:///dev/shm/nix-build-py-cons-0.4.5.drv-0/nixbld3/spack-stage-py-cons-0.4.5-nrfrdwqkly8qgkycypx3had6whbdxid1/spack-src
+constantly @ file:///dev/shm/nix-build-py-constantly-15.1.0.drv-0/nixbld4/spack-stage-py-constantly-15.1.0-pmmk12i7b9ysmbxfg7kmcmaxqax5v2kc/spack-src
+contourpy @ file:///dev/shm/nix-build-py-contourpy-1.0.7.drv-0/nixbld2/spack-stage-py-contourpy-1.0.7-3s13nsb1gjkmmnkwbc2pzxpqis8hb8ly/spack-src
+corner==2.2.3
+Corrfunc @ file:///dev/shm/nix-build-py-corrfunc-2.5.0.drv-0/nixbld2/spack-stage-py-corrfunc-2.5.0-fpyaa9mgbw9jrg6rvg168paspljvw267/spack-src
+coverage @ file:///dev/shm/nix-build-py-coverage-7.2.6.drv-0/nixbld3/spack-stage-py-coverage-7.2.6-vgi4gsp083p4pn8c7abvrc7v97dx1lqh/spack-src
+cppy @ file:///dev/shm/nix-build-py-cppy-1.2.1.drv-0/nixbld4/spack-stage-py-cppy-1.2.1-09z9z225jy64cj4b9przvm1sx102vmxq/spack-src
+cryptography @ file:///dev/shm/nix-build-py-cryptography-38.0.1.drv-1/nixbld4/spack-stage-py-cryptography-38.0.1-1ba9rk02qm16l40vivkmnhfymvi5cmzf/spack-src
+cupy @ file:///dev/shm/nix-build-py-cupy-12.3.0.drv-0/nixbld3/spack-stage-py-cupy-12.3.0-wwpnz39xmg57ww4ynnx7xdhii75fbggi/spack-src
+cycler @ file:///dev/shm/nix-build-py-cycler-0.11.0.drv-0/nixbld4/spack-stage-py-cycler-0.11.0-vc9an28sk90sgxp5yp4dmvzk4mbw69f9/spack-src
+Cython @ file:///dev/shm/nix-build-py-cython-3.0.8.drv-1/nixbld1/spack-stage-py-cython-3.0.8-60jmnsmlnzgaqc9ngph4sf6f1gq1s3z5/spack-src
+dask @ file:///dev/shm/nix-build-py-dask-2023.4.1.drv-0/nixbld1/spack-stage-py-dask-2023.4.1-6b5f4wkykr7jps9qb3mna2pzbjfisa3y/spack-src
+debugpy @ file:///dev/shm/nix-build-py-debugpy-1.6.7.drv-0/nixbld4/spack-stage-py-debugpy-1.6.7-a7ffv9cvg8afhj5h5a7wv61g9nx4vf0s/spack-src
+decorator @ file:///dev/shm/nix-build-py-decorator-5.1.1.drv-1/nixbld4/spack-stage-py-decorator-5.1.1-cpsib0hhckz4kkz8q0khpdwlrx4js12f/spack-src
+defusedxml @ file:///dev/shm/nix-build-py-defusedxml-0.7.1.drv-1/nixbld4/spack-stage-py-defusedxml-0.7.1-l9r7va6wdp2c67g065whnzxfxn9cvjci/spack-src
+deprecation @ file:///dev/shm/nix-build-py-deprecation-2.1.0.drv-1/nixbld2/spack-stage-py-deprecation-2.1.0-43pi4rasc90a5j4c7a1m2y1nxl79m9d8/spack-src
+dill @ file:///dev/shm/nix-build-py-dill-0.3.6.drv-1/nixbld2/spack-stage-py-dill-0.3.6-c7cxkjbj7b36pbbdp42ykklwz3s78w2k/spack-src
+distlib @ file:///dev/shm/nix-build-py-distlib-0.3.7.drv-0/nixbld3/spack-stage-py-distlib-0.3.7-9mw497nh21rd2090danfkp46m37rhzpx/spack-src
+distributed @ file:///dev/shm/nix-build-py-distributed-2023.4.1.drv-0/nixbld1/spack-stage-py-distributed-2023.4.1-k13zranrph06v7gz4iljnknbq95917c8/spack-src
+dm-tree==0.1.9
+docstring_parser==0.16
+docutils @ file:///dev/shm/nix-build-py-docutils-0.20.1.drv-1/nixbld3/spack-stage-py-docutils-0.20.1-wmn4sn2wqjbwbhff5c6v4vbxqpyfxp22/spack-src
+dulwich==0.22.8
+editables @ file:///dev/shm/nix-build-py-editables-0.3.drv-1/nixbld2/spack-stage-py-editables-0.3-yw1p8kqc66amr2b3wccgfwcz8hg2wnp9/spack-src
+emcee @ file:///dev/shm/nix-build-py-emcee-3.1.1.drv-0/nixbld1/spack-stage-py-emcee-3.1.1-57cs0hqk6k9w436j52bgk2f213q3nvww/spack-src
+entrypoints @ file:///dev/shm/nix-build-py-entrypoints-0.4.drv-0/nixbld1/spack-stage-py-entrypoints-0.4-pxic0b641l1hc3wfb1i64klaz78px6c1/spack-src
+envisage @ file:///dev/shm/nix-build-py-envisage-6.0.1.drv-0/nixbld1/spack-stage-py-envisage-6.0.1-9bk3m4j9v22j3zispwmx4r9pfhqp4r27/spack-src
+equinox==0.11.4
+etils==1.11.0
+etuples @ file:///dev/shm/nix-build-py-etuples-0.3.9.drv-0/nixbld4/spack-stage-py-etuples-0.3.9-ij0imdxh20967fifjhchfjrgzg017iqs/spack-src
+eventlet @ file:///dev/shm/nix-build-py-eventlet-0.22.0.drv-1/nixbld1/spack-stage-py-eventlet-0.22.0-wc4l4r7khgb5wgk47pj73j9976xx9nwr/spack-src
+everett==3.1.0
+exceptiongroup @ file:///dev/shm/nix-build-py-exceptiongroup-1.1.1.drv-0/nixbld1/spack-stage-py-exceptiongroup-1.1.1-nqg9799nba3qhjbg4871rssbvnvl2iiy/spack-src
+executing @ file:///dev/shm/nix-build-py-executing-1.2.0.drv-0/nixbld3/spack-stage-py-executing-1.2.0-jqsw9rs5442bs69zzawc485bh2gxpbmz/spack-src
+extension-helpers @ file:///dev/shm/nix-build-py-extension-helpers-1.0.0.drv-0/nixbld1/spack-stage-py-extension-helpers-1.0.0-b7m0ywqydvdsjkxxvgk4vib8knf17hh8/spack-src
+fastjsonschema @ file:///dev/shm/nix-build-py-fastjsonschema-2.16.3.drv-0/nixbld3/spack-stage-py-fastjsonschema-2.16.3-0j18i982mqswya384ap4c3m00y3mhrry/spack-src
+fastprogress @ file:///dev/shm/nix-build-py-fastprogress-1.0.0.drv-0/nixbld4/spack-stage-py-fastprogress-1.0.0-ci7vjibvkbb8fn01imfd6s2lwslhqn86/spack-src
+fastrlock==0.8.1
+filelock @ file:///dev/shm/nix-build-py-filelock-3.12.4.drv-0/nixbld3/spack-stage-py-filelock-3.12.4-f2isrvfp7gn4171i3gxwi13pnqcafnm7/spack-src
+fitsio @ file:///dev/shm/nix-build-py-fitsio-1.1.8.drv-0/nixbld2/spack-stage-py-fitsio-1.1.8-qbdk05grlrkg6jq5riabml0p89bby834/spack-src
+Flask @ file:///dev/shm/nix-build-py-flask-2.3.2.drv-1/nixbld4/spack-stage-py-flask-2.3.2-sasd9pkbzgg50rlzgpsndhw1g87h5g69/spack-src
+Flask-SocketIO @ file:///dev/shm/nix-build-py-flask-socketio-2.9.6.drv-0/nixbld2/spack-stage-py-flask-socketio-2.9.6-rqlmlqwpqm78nmh17lvfi9kp06wd9d58/spack-src
+flatbuffers @ file:///dev/shm/nix-build-py-flatbuffers-23.5.26.drv-1/nixbld3/spack-stage-py-flatbuffers-23.5.26-scr2z498cmshazm28pzfp4rgscnadrvv/spack-src
+flax==0.10.5
+flit_core @ file:///dev/shm/nix-build-py-flit-core-3.9.0.drv-0/nixbld4/spack-stage-py-flit-core-3.9.0-fz42j4wjccszd6hr32gqxkli13na6vwn/spack-src
+flit_scm @ file:///dev/shm/nix-build-py-flit-scm-1.7.0.drv-0/nixbld4/spack-stage-py-flit-scm-1.7.0-nb6179r5fj34c1czb835l4klxhm8i9rw/spack-src
+fonttools @ file:///dev/shm/nix-build-py-fonttools-4.39.4.drv-1/nixbld2/spack-stage-py-fonttools-4.39.4-kjvb1a6kxklah7wdrsyv1qamds882c86/spack-src
+fqdn @ file:///dev/shm/nix-build-py-fqdn-1.5.1.drv-1/nixbld1/spack-stage-py-fqdn-1.5.1-z9nhgawnnk8sqk0dcl6nl9akvli72j9i/spack-src
+frozenlist @ file:///dev/shm/nix-build-py-frozenlist-1.3.1.drv-1/nixbld3/spack-stage-py-frozenlist-1.3.1-hiq9865xl8gdzksrd27waxbyjpqp7yz4/spack-src
+fsspec @ file:///dev/shm/nix-build-py-fsspec-2024.2.0.drv-0/nixbld1/spack-stage-py-fsspec-2024.2.0-f267fh23yz8bhflscv4qzx69smz393lq/spack-src
+fusepy @ file:///dev/shm/nix-build-py-fusepy-3.0.1.drv-0/nixbld1/spack-stage-py-fusepy-3.0.1-g03zrridvi80hk7mddndjq9k1z89a9zl/spack-src
+future @ file:///dev/shm/nix-build-py-future-0.18.3.drv-1/nixbld1/spack-stage-py-future-0.18.3-95zzraw3xdkr0bgpl4syppxslgcjcysd/spack-src
+gast @ file:///dev/shm/nix-build-py-gast-0.5.3.drv-1/nixbld3/spack-stage-py-gast-0.5.3-yfm6kzw2dq1g577kspjwskgwrxwlsj1g/spack-src
+gevent @ file:///dev/shm/nix-build-py-gevent-23.7.0.drv-0/nixbld1/spack-stage-py-gevent-23.7.0-1rh50n3qa0nzhwk3m775vy7aspwdp6qz/spack-src
+globus-cli @ file:///dev/shm/nix-build-py-globus-cli-3.12.0.drv-0/nixbld1/spack-stage-py-globus-cli-3.12.0-2xnhidd57jfdqfr03gf1q4nqyssdz6h8/spack-src
+globus-sdk @ file:///dev/shm/nix-build-py-globus-sdk-3.17.0.drv-0/nixbld4/spack-stage-py-globus-sdk-3.17.0-m7jms1lj001zz6rv48jpxgrlkjwhgx06/spack-src
+google-pasta @ file:///dev/shm/nix-build-py-google-pasta-0.2.0.drv-0/nixbld3/spack-stage-py-google-pasta-0.2.0-z6jla82va2v4df6ziqjbp45mh6azq17c/spack-src
+gpustat @ file:///dev/shm/nix-build-py-gpustat-0.6.0.drv-0/nixbld4/spack-stage-py-gpustat-0.6.0-dw8qsp4dpnmbx5qxv85fvay5yhzs6vjn/spack-src
+graphviz @ file:///dev/shm/nix-build-py-graphviz-0.13.2.drv-1/nixbld3/spack-stage-py-graphviz-0.13.2-6chvw8shjxacsgwwrgxvicj07sd04wv7/spack-src
+greenlet @ file:///dev/shm/nix-build-py-greenlet-2.0.2.drv-1/nixbld3/spack-stage-py-greenlet-2.0.2-0rw8fzrnd8vdja8mddly59k8vidz5xkq/spack-src
+grpcio @ file:///dev/shm/nix-build-py-grpcio-1.60.1.drv-1/nixbld2/spack-stage-py-grpcio-1.60.1-gh7s9ccw9wkbzipcmavm1158vi619pzn/spack-src
+h5netcdf @ file:///dev/shm/nix-build-py-h5netcdf-1.3.0.drv-0/nixbld1/spack-stage-py-h5netcdf-1.3.0-w16w4q58amfz3ci8h5awv357d7h96awc/spack-src
+h5py @ file:///dev/shm/nix-build-py-h5py-3.11.0.drv-1/nixbld2/spack-stage-py-h5py-3.11.0-f9jq7jlylqfvyljkr3yf97yz57jdnal0/spack-src
+halotools @ file:///dev/shm/nix-build-py-halotools-0.8.1.drv-2/nixbld1/spack-stage-py-halotools-0.8.1-hndh11mnx71yd6qzrq399f3xik7iz723/spack-src
+hatch-fancy-pypi-readme @ file:///dev/shm/nix-build-py-hatch-fancy-pypi-readme-23.1.0.drv-0/nixbld3/spack-stage-py-hatch-fancy-pypi-readme-23.1.0-yywr5x5sh3r3gfc773g2m2i6qi022960/spack-src
+hatch-nodejs-version @ file:///dev/shm/nix-build-py-hatch-nodejs-version-0.3.1.drv-0/nixbld3/spack-stage-py-hatch-nodejs-version-0.3.1-vjmrxwwx8m4yzlxlzjhs6cjnd2qgibpb/spack-src
+hatch-vcs @ file:///dev/shm/nix-build-py-hatch-vcs-0.3.0.drv-0/nixbld1/spack-stage-py-hatch-vcs-0.3.0-68kcz6npavq1wkznrw8cid83byfyk1kh/spack-src
+hatchling @ file:///dev/shm/nix-build-py-hatchling-1.21.0.drv-0/nixbld4/spack-stage-py-hatchling-1.21.0-qszdyb3zxcnq672ia6mcyvkjiw4a65ix/spack-src
+hdf5plugin @ file:///dev/shm/nix-build-py-hdf5plugin-4.1.1.drv-1/nixbld2/spack-stage-py-hdf5plugin-4.1.1-5mh6klfx942diirfvnwghyrprh6wl8p4/spack-src
+healpy @ file:///dev/shm/nix-build-py-healpy-1.16.2.drv-0/nixbld3/spack-stage-py-healpy-1.16.2-4kqlbaqygr3sx3x7kvd8rs01wjbp0hg1/spack-src
+HeapDict @ file:///dev/shm/nix-build-py-heapdict-1.0.1.drv-0/nixbld3/spack-stage-py-heapdict-1.0.1-ykjyacs2gimnl44sbcgflwxb9fxmqmdc/spack-src
+humanize==4.12.2
+hyperlink @ file:///dev/shm/nix-build-py-hyperlink-21.0.0.drv-0/nixbld3/spack-stage-py-hyperlink-21.0.0-cc2djr4b36lbg1hb5bxm8awdmbif2182/spack-src
+hypothesis @ file:///dev/shm/nix-build-py-hypothesis-6.96.2.drv-0/nixbld1/spack-stage-py-hypothesis-6.96.2-ip9i244pa61wd2d2i446qclifn43qm83/spack-src
+identify @ file:///dev/shm/nix-build-py-identify-2.5.24.drv-0/nixbld1/spack-stage-py-identify-2.5.24-2649l16mhiyq58i5w3q5vvk1dva164xh/spack-src
+idna @ file:///dev/shm/nix-build-py-idna-3.4.drv-1/nixbld1/spack-stage-py-idna-3.4-a05qniakc4k9vqk6ym2jp5x9rxpggssz/spack-src
+imageio @ file:///dev/shm/nix-build-py-imageio-2.30.0.drv-0/nixbld2/spack-stage-py-imageio-2.30.0-njg3qsarzjll137z5l7wvsq7pbhbp9j4/spack-src
+imagesize @ file:///dev/shm/nix-build-py-imagesize-1.4.1.drv-0/nixbld1/spack-stage-py-imagesize-1.4.1-vykabnhygn74b4fsd5vm6vlrs2v4ns4y/spack-src
+immutabledict==4.2.1
+importlib_metadata @ file:///dev/shm/nix-build-py-importlib-metadata-7.0.1.drv-0/nixbld1/spack-stage-py-importlib-metadata-7.0.1-sf9pgi41n0qh8r197w42ybly1jzh3z5c/spack-src
+importlib_resources @ file:///dev/shm/nix-build-py-importlib-resources-5.12.0.drv-0/nixbld3/spack-stage-py-importlib-resources-5.12.0-2ipnf4m1bbr0y6vll2w823a1g0zrmyki/spack-src
+incremental @ file:///dev/shm/nix-build-py-incremental-21.3.0.drv-0/nixbld4/spack-stage-py-incremental-21.3.0-5im2ny100hb3kjqyjinjkpzlrw4h1l6r/spack-src
+iniconfig @ file:///dev/shm/nix-build-py-iniconfig-2.0.0.drv-0/nixbld4/spack-stage-py-iniconfig-2.0.0-il434wr4hxxqj864hwzwvp8xpyzbi96n/spack-src
+intervaltree @ file:///dev/shm/nix-build-py-intervaltree-3.0.2.drv-0/nixbld4/spack-stage-py-intervaltree-3.0.2-z4vshf4x9l4bdl0yp2czshm3w501gfik/spack-src
+ipykernel @ file:///dev/shm/nix-build-py-ipykernel-6.23.1.drv-0/nixbld1/spack-stage-py-ipykernel-6.23.1-gl2pi0mjsl70f92gil8v4w1i1ch912w9/spack-src
+ipyparallel @ file:///dev/shm/nix-build-py-ipyparallel-8.4.1.drv-0/nixbld1/spack-stage-py-ipyparallel-8.4.1-4lwsbxfv4gmwc6i7q5k8qw5wq83a0bgn/spack-src
+ipython @ file:///dev/shm/nix-build-py-ipython-8.14.0.drv-0/nixbld2/spack-stage-py-ipython-8.14.0-6szfs8znnz0qijawsrbbcn0762wps8qk/spack-src
+ipython_genutils @ file:///dev/shm/nix-build-py-ipython-genutils-0.2.0.drv-1/nixbld4/spack-stage-py-ipython-genutils-0.2.0-4zj9pqy88jykrq916x1dpkzm6cr1l656/spack-src
+ipywidgets @ file:///dev/shm/nix-build-py-ipywidgets-8.0.2.drv-0/nixbld1/spack-stage-py-ipywidgets-8.0.2-jb78b1ammysyf3j11mi5nmd316ml2j7w/spack-src
+isoduration @ file:///dev/shm/nix-build-py-isoduration-20.11.0.drv-0/nixbld3/spack-stage-py-isoduration-20.11.0-wp7d0khfq2mdp0113i9f9i965qwx5g42/spack-src
+isort @ file:///dev/shm/nix-build-py-isort-5.12.0.drv-0/nixbld4/spack-stage-py-isort-5.12.0-8xxccldvq1cn40p972590dvcrzvsnrjl/spack-src
+itsdangerous @ file:///dev/shm/nix-build-py-itsdangerous-2.1.2.drv-1/nixbld3/spack-stage-py-itsdangerous-2.1.2-a663z1yhz9llhsald631bx4g6wzn625m/spack-src
+jaraco.functools @ file:///dev/shm/nix-build-py-jaraco-functools-2.0.drv-0/nixbld4/spack-stage-py-jaraco-functools-2.0-pm0bv9rxqkdnsdgyx20k9s0b623pwfy2/spack-src
+jax==0.6.0
+jaxlib==0.6.0
+jaxtyping==0.2.37
+jedi @ file:///dev/shm/nix-build-py-jedi-0.18.2.drv-0/nixbld3/spack-stage-py-jedi-0.18.2-flfqv1rmynl773vj9nybcc88p3mhh5sh/spack-src
+Jinja2 @ file:///dev/shm/nix-build-py-jinja2-3.1.2.drv-1/nixbld3/spack-stage-py-jinja2-3.1.2-nbgqj2bf4iicxmmcqfxlzidw3vsyss13/spack-src
+jmespath @ file:///dev/shm/nix-build-py-jmespath-1.0.1.drv-1/nixbld2/spack-stage-py-jmespath-1.0.1-agr39947l390950cqgxzwnxjslmzkjgd/spack-src
+joblib @ file:///dev/shm/nix-build-py-joblib-1.2.0.drv-0/nixbld4/spack-stage-py-joblib-1.2.0-bnf34sapg3hy84sq9m73qd394dlgrg1q/spack-src
+json5 @ file:///dev/shm/nix-build-py-json5-0.9.14.drv-0/nixbld2/spack-stage-py-json5-0.9.14-zmq6ryabj6k7lk0z7d5x60w0c0ppwsq8/spack-src
+jsonpointer @ file:///dev/shm/nix-build-py-jsonpointer-2.0.drv-0/nixbld4/spack-stage-py-jsonpointer-2.0-ngapd9mxgwylpcfbsr62fsn5l988rsps/spack-src
+jsonschema @ file:///dev/shm/nix-build-py-jsonschema-4.17.3.drv-0/nixbld1/spack-stage-py-jsonschema-4.17.3-jsy7gcik418dx85x2amzq27k5gl14wsd/spack-src
+jupyter_client @ file:///dev/shm/nix-build-py-jupyter-client-8.2.0.drv-0/nixbld1/spack-stage-py-jupyter-client-8.2.0-k064375gg97gjdblr7wxhnalig6z04fh/spack-src
+jupyter_console @ file:///dev/shm/nix-build-py-jupyter-console-6.4.4.drv-0/nixbld1/spack-stage-py-jupyter-console-6.4.4-26md7ssb3v63zz1am322zjsl857xk75x/spack-src
+jupyter_core @ file:///dev/shm/nix-build-py-jupyter-core-5.3.0.drv-1/nixbld4/spack-stage-py-jupyter-core-5.3.0-5972cchydxdayrykrk00dnq5xhizk6gg/spack-src
+jupyter_packaging @ file:///dev/shm/nix-build-py-jupyter-packaging-0.12.0.drv-1/nixbld2/spack-stage-py-jupyter-packaging-0.12.0-6yxhc7vzm7xwkfij63n3c8xckr76rmnz/spack-src
+jupyter_server @ file:///dev/shm/nix-build-py-jupyter-server-1.21.0.drv-0/nixbld1/spack-stage-py-jupyter-server-1.21.0-i3524s4mfzyn7pjldmbc5saqm075g6jd/spack-src
+jupyterlab @ file:///dev/shm/nix-build-py-jupyterlab-3.6.6.drv-0/nixbld1/spack-stage-py-jupyterlab-3.6.6-wlbs7mydf7ixdk82f3k9qqa1l43s39sb/spack-src
+jupyterlab-pygments @ file:///dev/shm/nix-build-py-jupyterlab-pygments-0.2.2.drv-0/nixbld1/spack-stage-py-jupyterlab-pygments-0.2.2-spp5i9p7dw23ywq1rq1hs97idy3rkzq8/jupyterlab_pygments-0.2.2-py2.py3-none-any.whl#sha256=2405800db07c9f770863bcf8049a529c3dd4d3e28536638bd7c1c01d2748309f
+jupyterlab-widgets @ file:///dev/shm/nix-build-py-jupyterlab-widgets-3.0.3.drv-1/nixbld3/spack-stage-py-jupyterlab-widgets-3.0.3-cq621mjqgkr9d2as83wxn3hbyfzhmnja/jupyterlab_widgets-3.0.3-py3-none-any.whl#sha256=6aa1bc0045470d54d76b9c0b7609a8f8f0087573bae25700a370c11f82cb38c8
+jupyterlab_server @ file:///dev/shm/nix-build-py-jupyterlab-server-2.22.1.drv-0/nixbld1/spack-stage-py-jupyterlab-server-2.22.1-flr8p37ngh8zfcg62pk58mxg2kcqj26r/spack-src
+kdcount @ file:///dev/shm/nix-build-py-kdcount-0.3.29-13-g6e6ddfc.drv-0/nixbld2/spack-stage-py-kdcount-0.3.29-13-g6e6ddfc-sfmq7cxqnx4dzkch45ysd14s6ypvdz7g/spack-src
+keras @ file:///dev/shm/nix-build-py-keras-3.2.1.drv-0/nixbld1/spack-stage-py-keras-3.2.1-b5gyjid6ykc849c03gb3m81b8111yxjs/spack-src
+kiwisolver @ file:///dev/shm/nix-build-py-kiwisolver-1.4.5.drv-0/nixbld3/spack-stage-py-kiwisolver-1.4.5-d8jwl943z91z50023vspnghcr6g195nf/spack-src
+lazy-object-proxy @ file:///dev/shm/nix-build-py-lazy-object-proxy-1.7.1.drv-0/nixbld4/spack-stage-py-lazy-object-proxy-1.7.1-bjzczxdnr2340s0qyrws98f3j0grk11b/spack-src
+lazy_loader @ file:///dev/shm/nix-build-py-lazy-loader-0.3.drv-1/nixbld1/spack-stage-py-lazy-loader-0.3-1zncg825f0gx38n1c97x8i247lk3aprd/spack-src
+libclang @ file:///dev/shm/nix-build-py-libclang-14.0.6.drv-1/nixbld4/spack-stage-py-libclang-14.0.6-96bch5ymx8y4dkylgnhika2a3x53ic0x/spack-src
+lightning==2.5.1
+lightning-utilities==0.14.3
+llvmlite @ file:///dev/shm/nix-build-py-llvmlite-0.41.1.drv-0/nixbld2/spack-stage-py-llvmlite-0.41.1-595args4l4ql7gy5mi91dz69iibxa68w/spack-src
+locket @ file:///dev/shm/nix-build-py-locket-1.0.0.drv-0/nixbld2/spack-stage-py-locket-1.0.0-y01wm9kyb5gb2jjhc446v9rf0as72qc6/spack-src
+logical-unification @ file:///dev/shm/nix-build-py-logical-unification-0.4.6.drv-0/nixbld3/spack-stage-py-logical-unification-0.4.6-lm7rxxswvrs5nhm030347aa7sfvgzg2a/spack-src
+lz4 @ file:///dev/shm/nix-build-py-lz4-4.0.2.drv-0/nixbld1/spack-stage-py-lz4-4.0.2-4inrla6ldflivm6vw0c8d372wza1n90b/spack-src
+m2r @ file:///dev/shm/nix-build-py-m2r-0.2.1.drv-0/nixbld4/spack-stage-py-m2r-0.2.1-nlrknpzing4gyhlcc0c9vwaqpajqwzfg/spack-src
+Mako @ file:///dev/shm/nix-build-py-mako-1.2.4.drv-1/nixbld1/spack-stage-py-mako-1.2.4-rzrjw0ii9wz2s1q56kv4v338q3m45188/spack-src
+Markdown @ file:///dev/shm/nix-build-py-markdown-3.4.1.drv-1/nixbld1/spack-stage-py-markdown-3.4.1-qn7zdlbzzs00m8avni8b257c0knc7fxn/spack-src
+markdown-it-py @ file:///dev/shm/nix-build-py-markdown-it-py-3.0.0.drv-0/nixbld3/spack-stage-py-markdown-it-py-3.0.0-c31bc1v7sdf58vhdhaxfrkj3dgbh8h06/spack-src
+MarkupSafe @ file:///dev/shm/nix-build-py-markupsafe-2.1.3.drv-1/nixbld1/spack-stage-py-markupsafe-2.1.3-y1ncwys2l43kfld3xxwnx0higynfs810/spack-src
+matplotlib @ file:///dev/shm/nix-build-py-matplotlib-3.8.4.drv-0/nixbld1/spack-stage-py-matplotlib-3.8.4-x4s7yhz2fvd6h4b47gi193d0d3x12zlj/spack-src
+matplotlib-inline @ file:///dev/shm/nix-build-py-matplotlib-inline-0.1.6.drv-0/nixbld1/spack-stage-py-matplotlib-inline-0.1.6-gxnnszyqmk7nzr206d5rwb1vhvs9lds6/spack-src
+maturin @ file:///dev/shm/nix-build-py-maturin-1.5.1.drv-0/nixbld3/spack-stage-py-maturin-1.5.1-84kzidfhbr9rphf9rlsicv2lbrjfsfyk/spack-src
+mccabe @ file:///dev/shm/nix-build-py-mccabe-0.7.0.drv-0/nixbld2/spack-stage-py-mccabe-0.7.0-ajl07qhhsfwalr3y0px3siyhvf8p5z3a/spack-src
+mcfit @ file:///dev/shm/nix-build-py-mcfit-0.0.18.drv-0/nixbld3/spack-stage-py-mcfit-0.0.18-cnw71lrjxrs2h0bimqgclvls1l6q1fc1/spack-src
+mdurl @ file:///dev/shm/nix-build-py-mdurl-0.1.2.drv-0/nixbld4/spack-stage-py-mdurl-0.1.2-9sll1xmcv12v33qa193hnb2g6j0in67x/spack-src
+memory-profiler==0.61.0
+meson @ file:///dev/shm/nix-build-meson-1.2.1.drv-0/nixbld3/spack-stage-meson-1.2.1-cp4wlq72ddj5ddx3nmv85s6268dxlcpr/spack-src
+meson-python @ file:///dev/shm/nix-build-py-meson-python-0.15.0.drv-0/nixbld2/spack-stage-py-meson-python-0.15.0-lj8y8rwffqyh221ayxhm3njrz6c4sdb9/spack-src
+miniKanren @ file:///dev/shm/nix-build-py-minikanren-1.0.3.drv-0/nixbld4/spack-stage-py-minikanren-1.0.3-jkb77lppjwja35nvy11j2jds92mh5nmj/spack-src
+mistune @ file:///dev/shm/nix-build-py-mistune-2.0.5.drv-1/nixbld3/spack-stage-py-mistune-2.0.5-pyn5lpmda45dnj3iyh5zyh2iz1f05yzv/spack-src
+ml_collections==1.1.0
+ml_dtypes==0.5.1
+more-itertools @ file:///dev/shm/nix-build-py-more-itertools-9.1.0.drv-0/nixbld1/spack-stage-py-more-itertools-9.1.0-l5mw3b92lw3vd1f6kdir3cc02mg2lan5/spack-src
+mpi4py @ file:///dev/shm/nix-build-py-mpi4py-3.1.5.drv-3/nixbld4/spack-stage-py-mpi4py-3.1.5-572kr4y33niciw9p3if4nyf6adc7cm96/spack-src
+mpmath @ file:///dev/shm/nix-build-py-mpmath-1.2.1.drv-0/nixbld4/spack-stage-py-mpmath-1.2.1-c3c3zn6vrahbvp3aw0yfmjjvp444f417/spack-src
+mpsort @ file:///dev/shm/nix-build-py-mpsort-0.1.17-56-gea7a5bf.drv-0/nixbld3/spack-stage-py-mpsort-0.1.17-56-gea7a5bf-dhdzr9gw7xk3p7bffbv82fdhhhs6yvcz/spack-src
+msgpack @ file:///dev/shm/nix-build-py-msgpack-1.0.5.drv-0/nixbld2/spack-stage-py-msgpack-1.0.5-fac5xx8dw5licwdpx1kcykrvnd5046jr/spack-src
+multidict @ file:///dev/shm/nix-build-py-multidict-6.0.4.drv-1/nixbld4/spack-stage-py-multidict-6.0.4-6ih38443f3z4z3flawnk7nxiyn1iisrn/spack-src
+multipledispatch @ file:///dev/shm/nix-build-py-multipledispatch-0.6.0.drv-0/nixbld3/spack-stage-py-multipledispatch-0.6.0-zr824lzxwh0jccjqhsm5zdr365mpmqyc/spack-src
+multiprocess @ file:///dev/shm/nix-build-py-multiprocess-0.70.12.2.drv-0/nixbld2/spack-stage-py-multiprocess-0.70.12.2-brc4qwgp255xr94p44bsxvl2lvc4vwv8/spack-src
+mypy @ file:///dev/shm/nix-build-py-mypy-1.8.0.drv-1/nixbld4/spack-stage-py-mypy-1.8.0-9n8gx8c0rn15l5rllhlr7gcrjpmcg2p3/spack-src
+mypy_extensions @ file:///dev/shm/nix-build-py-mypy-extensions-1.0.0.drv-1/nixbld4/spack-stage-py-mypy-extensions-1.0.0-6ikv94amrvqh2lk1ilyvv9fzrmgxb1nf/spack-src
+namex @ file:///dev/shm/nix-build-py-namex-0.0.7.drv-0/nixbld3/spack-stage-py-namex-0.0.7-44jgc17p6swiap2bxj9chcwgv70hkg56/spack-src
+nbclassic @ file:///dev/shm/nix-build-py-nbclassic-1.0.0.drv-0/nixbld1/spack-stage-py-nbclassic-1.0.0-avjr07nhy8dsbchv3zaya48bdiibl23r/spack-src
+nbclient @ file:///dev/shm/nix-build-py-nbclient-0.8.0.drv-0/nixbld1/spack-stage-py-nbclient-0.8.0-3sgyl6rb34f5y8h46k7n6h52r23khi55/spack-src
+nbconvert @ file:///dev/shm/nix-build-py-nbconvert-7.14.1.drv-0/nixbld1/spack-stage-py-nbconvert-7.14.1-cgf0rbcv5k2xk1m5xc7kpnq62xn6zy4g/spack-src
+nbformat @ file:///dev/shm/nix-build-py-nbformat-5.8.0.drv-0/nixbld4/spack-stage-py-nbformat-5.8.0-6f89x3mz6s535gbhl4hv9x7nljqr7a52/spack-src
+nbodykit @ file:///dev/shm/nix-build-py-nbodykit-0.3.15-40-g376c9d78.drv-0/nixbld1/spack-stage-py-nbodykit-0.3.15-40-g376c9d78-gzzpxdjqhnxlvczhx83i6a7rrxj2lgsl/spack-src
+nest_asyncio @ file:///dev/shm/nix-build-py-nest-asyncio-1.5.6.drv-0/nixbld3/spack-stage-py-nest-asyncio-1.5.6-493rvmdx0zfnqx82ia5ivy32h958jc5q/spack-src
+netCDF4 @ file:///dev/shm/nix-build-py-netcdf4-1.6.5.drv-0/nixbld2/spack-stage-py-netcdf4-1.6.5-l4rz2y0872dv9qyzhpwj2v82q0rd9i19/spack-src
+networkx @ file:///dev/shm/nix-build-py-networkx-3.1.drv-0/nixbld3/spack-stage-py-networkx-3.1-87lzic2j5f9irx57snlk90p638248jkd/spack-src
+nodeenv @ file:///dev/shm/nix-build-py-nodeenv-1.8.0.drv-1/nixbld3/spack-stage-py-nodeenv-1.8.0-4bvj2jhr9j5ypzf84mbfy6mkv66mbn7w/spack-src
+nose @ file:///dev/shm/nix-build-py-nose-1.3.7.drv-0/nixbld4/spack-stage-py-nose-1.3.7-3hzwajic5g4ykrmzzy5nzpdcsqryxxwp/spack-src
+notebook @ file:///dev/shm/nix-build-py-notebook-6.5.4.drv-0/nixbld1/spack-stage-py-notebook-6.5.4-4dkf2p1k3s8p5nmfp8jzldf3pzgcc95k/spack-src
+notebook_shim @ file:///dev/shm/nix-build-py-notebook-shim-0.2.3.drv-0/nixbld1/spack-stage-py-notebook-shim-0.2.3-snrmm5qlbmdrbzpjdnw2cflx0lag0d2z/spack-src
+numba @ file:///dev/shm/nix-build-py-numba-0.58.1.drv-0/nixbld4/spack-stage-py-numba-0.58.1-4li06c5mkkjd6m0cfs34kn725nh4g553/spack-src
+numexpr @ file:///dev/shm/nix-build-py-numexpr-2.8.4.drv-0/nixbld4/spack-stage-py-numexpr-2.8.4-s7ifg37qrjjp06gqp0r84f5jk300nz8i/spack-src
+numpy @ file:///dev/shm/nix-build-py-numpy-1.26.4.drv-0/nixbld4/spack-stage-py-numpy-1.26.4-h80y6l5xl44znbdx7cvfvnsk0a41jkqv/spack-src
+numpyro==0.17.0
+numpyro-ext==0.0.4
+nvidia-ml-py3 @ file:///dev/shm/nix-build-py-nvidia-ml-py3-7.352.0.drv-0/nixbld1/spack-stage-py-nvidia-ml-py3-7.352.0-m6sv76sxa3m7n11zas6cppsmmnhaiy36/spack-src
+olefile @ file:///dev/shm/nix-build-py-olefile-0.44.drv-1/nixbld2/spack-stage-py-olefile-0.44-947i8xynx2lpgbcdbqcjc45z2mj47pc3/spack-src
+opt_einsum @ file:///dev/shm/nix-build-py-opt-einsum-3.3.0.drv-0/nixbld3/spack-stage-py-opt-einsum-3.3.0-np9hbvwyhqxa4g1cj1wiskgd9lv0w6j0/spack-src
+optax==0.2.4
+optree @ file:///dev/shm/nix-build-py-optree-0.10.0.drv-1/nixbld3/spack-stage-py-optree-0.10.0-7a1hy1bnf7iz6cww7jv0qdxnay7rpnpy/spack-src
+orbax-checkpoint==0.11.12
+packaging @ file:///dev/shm/nix-build-py-packaging-23.1.drv-1/nixbld4/spack-stage-py-packaging-23.1-54ifpx7ng017z83q3glg84473v6brfsk/spack-src
+pandas @ file:///dev/shm/nix-build-py-pandas-2.2.2.drv-1/nixbld2/spack-stage-py-pandas-2.2.2-bcg7xdhkpzjimkc0qjgvgzjv71h4fvwc/spack-src
+pandocfilters @ file:///dev/shm/nix-build-py-pandocfilters-1.5.0.drv-0/nixbld3/spack-stage-py-pandocfilters-1.5.0-44ysz676y3wqrxm0ln82kdlkdrzq6s9j/spack-src
+parso @ file:///dev/shm/nix-build-py-parso-0.8.3.drv-0/nixbld3/spack-stage-py-parso-0.8.3-z3sgkygi6y66ygb53bq05hg1sjr2i1wy/spack-src
+partd @ file:///dev/shm/nix-build-py-partd-1.4.0.drv-0/nixbld3/spack-stage-py-partd-1.4.0-nwyjj4kx446h86yaq7629n756lwbyag5/spack-src
+pathos @ file:///dev/shm/nix-build-py-pathos-0.2.8.drv-0/nixbld3/spack-stage-py-pathos-0.2.8-5w42lap588197fbkyzbyyz2dkxcazkf1/spack-src
+pathspec @ file:///dev/shm/nix-build-py-pathspec-0.11.1.drv-1/nixbld3/spack-stage-py-pathspec-0.11.1-s1irk9s3lw698qrhgsgi2vvlajrf1dz4/spack-src
+pexpect @ file:///dev/shm/nix-build-py-pexpect-4.8.0.drv-1/nixbld4/spack-stage-py-pexpect-4.8.0-6cl20q2gvdl8xj3z27hvqqxqaz2zv255/spack-src
+pfft-python @ file:///dev/shm/nix-build-py-pfft-python-0.1.21.drv-1/nixbld4/spack-stage-py-pfft-python-0.1.21-zrzvvmr6aqns5xfalpsscll4fskiqj8s/spack-src
+pickleshare @ file:///dev/shm/nix-build-py-pickleshare-0.7.5.drv-1/nixbld2/spack-stage-py-pickleshare-0.7.5-pikvmqln7c7vbxqwz8yh9lf3vfzipqph/spack-src
+pillow @ file:///dev/shm/nix-build-py-pillow-10.3.0.drv-0/nixbld1/spack-stage-py-pillow-10.3.0-sc9kzdi56cw7lla2inwcdji7rac0rjl0/spack-src
+pkgconfig @ file:///dev/shm/nix-build-py-pkgconfig-1.5.5.drv-0/nixbld1/spack-stage-py-pkgconfig-1.5.5-aqvs8nzjzpph9hn3vnlk498m12qaas9m/spack-src
+platformdirs @ file:///dev/shm/nix-build-py-platformdirs-3.10.0.drv-0/nixbld1/spack-stage-py-platformdirs-3.10.0-901xszbkgcriwzzn97vqj1dq4djfk8bl/spack-src
+pluggy @ file:///dev/shm/nix-build-py-pluggy-1.4.0.drv-0/nixbld1/spack-stage-py-pluggy-1.4.0-5xpzd63b08byrysaikzw3l03wmqy4y6h/spack-src
+ply @ file:///dev/shm/nix-build-py-ply-3.11.drv-0/nixbld3/spack-stage-py-ply-3.11-28vbz4xlf08a50agvcr9rzgxbfip8dcr/spack-src
+pmesh @ file:///dev/shm/nix-build-py-pmesh-0.1.56-7-g6fe8b2d.drv-1/nixbld3/spack-stage-py-pmesh-0.1.56-7-g6fe8b2d-dgl4m968j0gmac3vvw4m5j1srdsdyndq/spack-src
+Pmw @ file:///dev/shm/nix-build-py-pmw-patched-02-10-2020.drv-0/nixbld1/spack-stage-py-pmw-patched-02-10-2020-i146cvi2fr5ifbsprdxvc05z05rrkwyl/spack-src
+poetry-core @ file:///dev/shm/nix-build-py-poetry-core-1.8.1.drv-0/nixbld4/spack-stage-py-poetry-core-1.8.1-s14pv3jbvwvf9qxpyrjzhas4f768mrs6/spack-src
+portend @ file:///dev/shm/nix-build-py-portend-2.5.drv-0/nixbld3/spack-stage-py-portend-2.5-sa0hafi2p6c9ifah7pk53nn2k9r781qv/spack-src
+pox @ file:///dev/shm/nix-build-py-pox-0.3.0.drv-0/nixbld2/spack-stage-py-pox-0.3.0-jgnq2cx1ik9471p740r0mp01n02a75wj/spack-src
+ppft @ file:///dev/shm/nix-build-py-ppft-1.6.6.4.drv-0/nixbld2/spack-stage-py-ppft-1.6.6.4-k9s2xpl57yrmwmydx3wqnwc0r6119d9w/spack-src
+pre_commit @ file:///dev/shm/nix-build-py-pre-commit-3.6.0.drv-0/nixbld4/spack-stage-py-pre-commit-3.6.0-5anfqcpgdfmhm3y49524l7k1ripvws9q/spack-src
+prometheus_client @ file:///dev/shm/nix-build-py-prometheus-client-0.17.0.drv-0/nixbld2/spack-stage-py-prometheus-client-0.17.0-vvkfbg815vizyax0ncmskw8vqv2mvwc7/spack-src
+promise==2.3
+prompt_toolkit @ file:///dev/shm/nix-build-py-prompt-toolkit-3.0.38.drv-0/nixbld1/spack-stage-py-prompt-toolkit-3.0.38-kzj3bk1krm1q639nx6mx985p1n8a33y7/spack-src
+protobuf==4.21.12
+psutil @ file:///dev/shm/nix-build-py-psutil-5.9.5.drv-1/nixbld2/spack-stage-py-psutil-5.9.5-cv1qfxgph3j72is0isimgw4rd9pl10kr/spack-src
+psycopg2 @ file:///dev/shm/nix-build-py-psycopg2-2.9.6.drv-1/nixbld4/spack-stage-py-psycopg2-2.9.6-px84gx46srd3hm37ip5ckcjyqm59i9nx/spack-src
+ptyprocess @ file:///dev/shm/nix-build-py-ptyprocess-0.7.0.drv-0/nixbld1/spack-stage-py-ptyprocess-0.7.0-3gxz22mpwkzq1q1bbq3zh6lm2vp8ixkl/spack-src
+pure_eval @ file:///dev/shm/nix-build-py-pure-eval-0.2.2.drv-0/nixbld4/spack-stage-py-pure-eval-0.2.2-s319szkjk9l0gm5vivw98isr6pxyam7c/spack-src
+py-cpuinfo @ file:///dev/shm/nix-build-py-py-cpuinfo-8.0.0.drv-1/nixbld3/spack-stage-py-py-cpuinfo-8.0.0-sw41shfil2v2byacx7qpbwhzda642k8a/spack-src
+pyarrow==19.0.1
+pyasn1 @ file:///dev/shm/nix-build-py-pyasn1-0.4.8.drv-0/nixbld2/spack-stage-py-pyasn1-0.4.8-31p11338g6cs3m680r6xapc2a4ymym6j/spack-src
+pyasn1-modules @ file:///dev/shm/nix-build-py-pyasn1-modules-0.2.8.drv-0/nixbld4/spack-stage-py-pyasn1-modules-0.2.8-qdhw3s8yrc10rj8sn3bxyms19fh5kk7d/spack-src
+pybind11 @ file:///dev/shm/nix-build-py-pybind11-2.12.0.drv-0/nixbld1/spack-stage-py-pybind11-2.12.0-91bgy3y446ij6mx96vcv4441zx675hfx/spack-src
+pycairo @ file:///dev/shm/nix-build-py-pycairo-1.24.0.drv-1/nixbld4/spack-stage-py-pycairo-1.24.0-ik7sn0752gxqh66db0ib8vm3mn9ppdl1/spack-src
+pycodestyle @ file:///dev/shm/nix-build-py-pycodestyle-2.11.0.drv-0/nixbld1/spack-stage-py-pycodestyle-2.11.0-im4yk1a8mwix7m8vwn9jbrflly7pazip/spack-src
+pycparser @ file:///dev/shm/nix-build-py-pycparser-2.21.drv-0/nixbld4/spack-stage-py-pycparser-2.21-j5c0yqxkfcfqan8z54xxn0yir9bp3dqy/spack-src
+pycuda @ file:///dev/shm/nix-build-py-pycuda-2022.2.2.drv-0/nixbld1/spack-stage-py-pycuda-2022.2.2-67wy35za1xxgyyvr821mn3v85canspyc/spack-src
+pyerfa @ file:///dev/shm/nix-build-py-pyerfa-2.0.0.1.drv-0/nixbld3/spack-stage-py-pyerfa-2.0.0.1-09qpcczvf9fbpk7pd4nyjlc6c6s0ff1s/spack-src
+pyface @ file:///dev/shm/nix-build-py-pyface-7.3.0.drv-0/nixbld1/spack-stage-py-pyface-7.3.0-my02fv4y4w1a2lyxlgcncc6m4zq6gbvx/spack-src
+pyFFTW @ file:///dev/shm/nix-build-py-pyfftw-0.13.1.drv-0/nixbld3/spack-stage-py-pyfftw-0.13.1-mqd58sviwhhdhxlrl9wp2znyzz2hfrkm/spack-src
+Pygments @ file:///dev/shm/nix-build-py-pygments-2.16.1.drv-0/nixbld4/spack-stage-py-pygments-2.16.1-xp4012iv49ny5qvys9wwm4ag5jh470h3/spack-src
+PyJWT @ file:///dev/shm/nix-build-py-pyjwt-2.4.0.drv-1/nixbld3/spack-stage-py-pyjwt-2.4.0-ax01cvi1szc2cgk70pjzkci8wx519c54/spack-src
+pylint @ file:///dev/shm/nix-build-py-pylint-2.16.2.drv-0/nixbld4/spack-stage-py-pylint-2.16.2-dq213525z6grv943klmq9mnanmn4vbhf/spack-src
+pymc @ file:///dev/shm/nix-build-py-pymc-5.5.0.drv-0/nixbld2/spack-stage-py-pymc-5.5.0-m2fyy0p0ii4azz65q1v4x5sdkckm6xvk/spack-src
+pymol==2.5.0
+pyparsing @ file:///dev/shm/nix-build-py-pyparsing-3.0.9.drv-0/nixbld1/spack-stage-py-pyparsing-3.0.9-a5ayvfishqi7zjyhr50assglfjc31lnk/spack-src
+pyproject-metadata @ file:///dev/shm/nix-build-py-pyproject-metadata-0.7.1.drv-1/nixbld4/spack-stage-py-pyproject-metadata-0.7.1-bh7y70fji9kc0iwki9bkqabxvjpaccrd/spack-src
+pyproject_hooks @ file:///dev/shm/nix-build-py-pyproject-hooks-1.0.0.drv-0/nixbld2/spack-stage-py-pyproject-hooks-1.0.0-zd6x995v6b7r1zszc0741jwfdgk4sj51/spack-src
+PyQt-builder @ file:///dev/shm/nix-build-py-pyqt-builder-1.15.1.drv-0/nixbld3/spack-stage-py-pyqt-builder-1.15.1-immkigzy0q782mzlwgzziayp0f5zkvr7/spack-src
+PyQt5==5.15.9
+PyQt5_sip @ file:///dev/shm/nix-build-py-pyqt5-sip-12.12.1.drv-0/nixbld1/spack-stage-py-pyqt5-sip-12.12.1-9yh0was79hviqg2jjx0z87n22kjwvc2n/spack-src
+pyrsistent @ file:///dev/shm/nix-build-py-pyrsistent-0.19.3.drv-0/nixbld1/spack-stage-py-pyrsistent-0.19.3-x0ak36xn19mq0k10v3pz1k21h4lgjpfn/spack-src
+pytensor @ file:///dev/shm/nix-build-py-pytensor-2.12.2.drv-1/nixbld1/spack-stage-py-pytensor-2.12.2-v2qqcbkx3dclb71ksl26m51yl9yg5z9w/spack-src
+pytest @ file:///dev/shm/nix-build-py-pytest-8.0.0.drv-0/nixbld3/spack-stage-py-pytest-8.0.0-3j3f8avj22v365jqgrhzsdw5c0gxhjpa/spack-src
+pytest-runner @ file:///dev/shm/nix-build-py-pytest-runner-6.0.0.drv-0/nixbld1/spack-stage-py-pytest-runner-6.0.0-b3ddg72b93k362kzqv9fz34g1p5l50b6/spack-src
+python-box==6.1.0
+python-dateutil @ file:///dev/shm/nix-build-py-python-dateutil-2.8.2.drv-0/nixbld4/spack-stage-py-python-dateutil-2.8.2-84ggqv5f0zdsr674dalpzw29bimdjzyf/spack-src
+python-engineio @ file:///dev/shm/nix-build-py-python-engineio-2.0.2.drv-1/nixbld2/spack-stage-py-python-engineio-2.0.2-1zfdm60fky2v6a51v27w2skx4xfylvg4/spack-src
+python-ldap @ file:///dev/shm/nix-build-py-python-ldap-3.4.2.drv-0/nixbld1/spack-stage-py-python-ldap-3.4.2-6s4hppvsngbzg5klnzglll62h6jrs3qp/spack-src
+python-socketio @ file:///dev/shm/nix-build-py-python-socketio-1.8.4.drv-1/nixbld3/spack-stage-py-python-socketio-1.8.4-cv8awx9ky5dqkjqbkvh3yzv5ia2c1xan/spack-src
+pythran @ file:///dev/shm/nix-build-py-pythran-0.15.0.drv-0/nixbld3/spack-stage-py-pythran-0.15.0-939d4rak538d1df792zcch9zga5s01n6/spack-src
+pytools @ file:///dev/shm/nix-build-py-pytools-2022.1.14.drv-0/nixbld3/spack-stage-py-pytools-2022.1.14-pcqz60zsn8g0iw0v4bigkccv95wgp523/spack-src
+pytorch-lightning @ file:///dev/shm/nix-build-py-pytorch-lightning-2.0.0.drv-0/nixbld1/spack-stage-py-pytorch-lightning-2.0.0-051wj4ab05bfx19xg3ff43xdg332ldrv/spack-src
+pytz @ file:///dev/shm/nix-build-py-pytz-2023.3.drv-1/nixbld4/spack-stage-py-pytz-2023.3-v5gjpi8pnwid805a00qql34hm7xpf1fw/spack-src
+PyYAML @ file:///dev/shm/nix-build-py-pyyaml-6.0.drv-0/nixbld4/spack-stage-py-pyyaml-6.0-hxrzyvp32y06rp66xsgj4gjsx1a5wcgy/spack-src
+pyzmq @ file:///dev/shm/nix-build-py-pyzmq-25.0.2.drv-0/nixbld1/spack-stage-py-pyzmq-25.0.2-hjn7l1n6fx14219xl8ppl5691d3wcixv/spack-src
+qtconsole @ file:///dev/shm/nix-build-py-qtconsole-5.2.0.drv-0/nixbld1/spack-stage-py-qtconsole-5.2.0-4106nj0cy8hzxg7yvnvbm7jwby1plalq/spack-src
+QtPy @ file:///dev/shm/nix-build-py-qtpy-1.11.2.drv-0/nixbld1/spack-stage-py-qtpy-1.11.2-8apvn81fi61f4k5wyz5hw8yl51pkxd2r/spack-src
+requests @ file:///dev/shm/nix-build-py-requests-2.31.0.drv-0/nixbld1/spack-stage-py-requests-2.31.0-gw69qmwaq5wgjsjj0z8jkghsfx35n6az/spack-src
+requests-toolbelt==1.0.0
+rfc3339_validator @ file:///dev/shm/nix-build-py-rfc3339-validator-0.1.4.drv-0/nixbld2/spack-stage-py-rfc3339-validator-0.1.4-s6yhp9la48yksq59qwi5g67r0ain9pa5/spack-src
+rfc3986_validator @ file:///dev/shm/nix-build-py-rfc3986-validator-0.1.1.drv-0/nixbld4/spack-stage-py-rfc3986-validator-0.1.1-6c5rg3x1230cnrp1vkpx6svbhzf2pbmn/spack-src
+rich @ file:///dev/shm/nix-build-py-rich-13.4.2.drv-1/nixbld2/spack-stage-py-rich-13.4.2-h3asiaqgcn0z1y5bnhnvfxp9bijsw0qq/spack-src
+ruff @ file:///dev/shm/nix-build-py-ruff-0.3.7.drv-0/nixbld4/spack-stage-py-ruff-0.3.7-adzb871n5v3b72gnprc1pmidmm6g5xq9/spack-src
+runtests @ file:///dev/shm/nix-build-py-runtests-0.0.28.drv-1/nixbld4/spack-stage-py-runtests-0.0.28-d2vyi0p2nkg0ybrmsb68fn5pihnyd17k/spack-src
+scikit-image @ file:///dev/shm/nix-build-py-scikit-image-0.22.0.drv-0/nixbld4/spack-stage-py-scikit-image-0.22.0-89k4cw9rwnz79w73pvrah2dcc7ak7mm1/spack-src
+scikit-learn @ file:///dev/shm/nix-build-py-scikit-learn-1.4.2.drv-0/nixbld4/spack-stage-py-scikit-learn-1.4.2-xq4cag95sy0fzmglqh9v7vzbhm6lv5p9/spack-src
+scipy @ file:///dev/shm/nix-build-py-scipy-1.13.0.drv-0/nixbld3/spack-stage-py-scipy-1.13.0-s7rg9nryzzvxls77snb8zly7s9jmng5z/spack-src
+seaborn @ file:///dev/shm/nix-build-py-seaborn-0.13.2.drv-1/nixbld3/spack-stage-py-seaborn-0.13.2-j16xx33gcim1acq5pmg0p38bbx06x73z/spack-src
+semantic_version @ file:///dev/shm/nix-build-py-semantic-version-2.10.0.drv-0/nixbld1/spack-stage-py-semantic-version-2.10.0-m1c8xwhvx7g6jwdxnjb09yqdsaxrjx1l/spack-src
+Send2Trash @ file:///dev/shm/nix-build-py-send2trash-1.8.0.drv-1/nixbld2/spack-stage-py-send2trash-1.8.0-27kaj4zwpz74jz7fh8khmf6sbbc3ijl0/spack-src
+sentry-sdk==2.26.1
+setuptools-git-versioning @ file:///dev/shm/nix-build-py-setuptools-git-versioning-1.13.3.drv-0/nixbld3/spack-stage-py-setuptools-git-versioning-1.13.3-k37m3x017xbw78rd0yr8gq740acq2law/spack-src
+setuptools-rust @ file:///dev/shm/nix-build-py-setuptools-rust-1.6.0.drv-1/nixbld1/spack-stage-py-setuptools-rust-1.6.0-6amsi44apjy0983hjxaz9k2mnlgp3c4g/spack-src
+setuptools_scm @ file:///dev/shm/nix-build-py-setuptools-scm-7.1.0.drv-0/nixbld3/spack-stage-py-setuptools-scm-7.1.0-s0g6byhcncs6h6sdbrha7iymx72d6n0f/spack-src
+setuptools_scm_git_archive @ file:///dev/shm/nix-build-py-setuptools-scm-git-archive-1.4.drv-0/nixbld1/spack-stage-py-setuptools-scm-git-archive-1.4-vc9kbjahrz4npx01k9202vxaj9cfga30/spack-src
+shapely @ file:///dev/shm/nix-build-py-shapely-2.0.3.drv-0/nixbld4/spack-stage-py-shapely-2.0.3-v85j1lijqyf8l57c9ddz0g4wdivmys6l/spack-src
+sharedmem @ file:///dev/shm/nix-build-py-sharedmem-0.3.8.drv-0/nixbld3/spack-stage-py-sharedmem-0.3.8-4006b3sd2bq8x382wky7kxjqgw2vh1zr/spack-src
+simple-parsing==0.1.7
+simplejson==3.20.1
+sip @ file:///dev/shm/nix-build-py-sip-6.7.9.drv-0/nixbld2/spack-stage-py-sip-6.7.9-d6agw3acgqwsbhm9q6hn7l71kgzb5a81/spack-src
+six @ file:///dev/shm/nix-build-py-six-1.16.0.drv-1/nixbld2/spack-stage-py-six-1.16.0-0wksv0n9sj457xffsp11j40qj7r1gv8j/spack-src
+sniffio @ file:///dev/shm/nix-build-py-sniffio-1.3.0.drv-0/nixbld3/spack-stage-py-sniffio-1.3.0-fzs0lwfrimqdavrcr9pj13yap6sdv8fm/spack-src
+snowballstemmer @ file:///dev/shm/nix-build-py-snowballstemmer-2.2.0.drv-0/nixbld2/spack-stage-py-snowballstemmer-2.2.0-2vjykfkkmp2xk5jly5rhz8zq202qjb9b/spack-src
+sortedcontainers @ file:///dev/shm/nix-build-py-sortedcontainers-2.4.0.drv-1/nixbld4/spack-stage-py-sortedcontainers-2.4.0-vf6sl79rmjrym0fzsvhjzyq4naf7s3nn/spack-src
+soupsieve @ file:///dev/shm/nix-build-py-soupsieve-2.4.1.drv-0/nixbld4/spack-stage-py-soupsieve-2.4.1-bp1265896bwncl7i2bdiwp09ci8a521v/spack-src
+Sphinx @ file:///dev/shm/nix-build-py-sphinx-7.2.6.drv-1/nixbld1/spack-stage-py-sphinx-7.2.6-s3zyzjyf88kfbapjrzzm7873n4fa93ia/spack-src
+sphinxcontrib-applehelp @ file:///dev/shm/nix-build-py-sphinxcontrib-applehelp-1.0.4.drv-1/nixbld2/spack-stage-py-sphinxcontrib-applehelp-1.0.4-9pq3h5b9317ibjavrl9vqzwl6sjl8m3x/spack-src
+sphinxcontrib-devhelp @ file:///dev/shm/nix-build-py-sphinxcontrib-devhelp-1.0.2.drv-1/nixbld2/spack-stage-py-sphinxcontrib-devhelp-1.0.2-ffq37jiv02fnxiwf1xr69jmrrqibl699/spack-src
+sphinxcontrib-htmlhelp @ file:///dev/shm/nix-build-py-sphinxcontrib-htmlhelp-2.0.1.drv-0/nixbld4/spack-stage-py-sphinxcontrib-htmlhelp-2.0.1-zv2k067xyvybcpmbys7w443rbnymwq5v/spack-src
+sphinxcontrib-jsmath @ file:///dev/shm/nix-build-py-sphinxcontrib-jsmath-1.0.1.drv-0/nixbld3/spack-stage-py-sphinxcontrib-jsmath-1.0.1-px1rvdxx9ry1vifmbc42gkbm1lxkmg48/spack-src
+sphinxcontrib-qthelp @ file:///dev/shm/nix-build-py-sphinxcontrib-qthelp-1.0.3.drv-0/nixbld4/spack-stage-py-sphinxcontrib-qthelp-1.0.3-f04psvwh05f5pil8a71dvhw6hj2w8n3w/spack-src
+sphinxcontrib-serializinghtml @ file:///dev/shm/nix-build-py-sphinxcontrib-serializinghtml-1.1.9.drv-1/nixbld2/spack-stage-py-sphinxcontrib-serializinghtml-1.1.9-whsynhbrf99s0and6pwnwwd4jn3znvpk/spack-src
+SQLAlchemy @ file:///dev/shm/nix-build-py-sqlalchemy-2.0.19.drv-0/nixbld1/spack-stage-py-sqlalchemy-2.0.19-4ks1fs8pwl133pawhabbfvrfafcw36cz/spack-src
+stack_data @ file:///dev/shm/nix-build-py-stack-data-0.6.2.drv-0/nixbld1/spack-stage-py-stack-data-0.6.2-9apvqwrgi6nv1jr8ql6sq81jzsl9x2fm/spack-src
+sympy @ file:///dev/shm/nix-build-py-sympy-1.12.drv-1/nixbld3/spack-stage-py-sympy-1.12-0l42q9jrjkkvbax9iqnnhh67i3r7hrka/spack-src
+tblib @ file:///dev/shm/nix-build-py-tblib-1.6.0.drv-0/nixbld4/spack-stage-py-tblib-1.6.0-7fkimhvi3slilli4sd7mkxiiz9bhar6a/spack-src
+tempora @ file:///dev/shm/nix-build-py-tempora-1.14.1.drv-0/nixbld1/spack-stage-py-tempora-1.14.1-vsyg19xgp3c4103wh074ryqjaiffi5zz/spack-src
+tensorboard @ file:///dev/shm/nix-build-py-tensorboard-2.16.2.drv-0/nixbld1/spack-stage-py-tensorboard-2.16.2-vh7glsgwvs86xfv5yzf1rqsjjwr0l7zw/tensorboard-2.16.2-py3-none-any.whl
+tensorboard_data_server @ file:///dev/shm/nix-build-py-tensorboard-data-server-0.7.0.drv-1/nixbld4/spack-stage-py-tensorboard-data-server-0.7.0-sf5s3d8jhnra6rdfazw4adr1xl1mw4p0/spack-src/tensorboard_data_server-0.7.0-py3-none-manylinux2014_x86_64.whl#sha256=421002f0bae4328d28fefbb8f8bb66e79439a02df8431a4a9842a4d41d886625
+tensorflow @ file:///dev/shm/nix-build-py-tensorflow-2.16.1.drv-2/nixbld1/spack-stage-py-tensorflow-2.16.1-nx4qin8giwk13fhqpxaw6zcdjxygy1pn/spack-src/spack-build
+tensorflow-datasets==4.9.8
+tensorflow-metadata==1.17.1
+tensorstore==0.1.73
+termcolor @ file:///dev/shm/nix-build-py-termcolor-1.1.0.drv-0/nixbld3/spack-stage-py-termcolor-1.1.0-jbxn0qxviv9s23s361i3g1wscw3jyl15/spack-src
+terminado @ file:///dev/shm/nix-build-py-terminado-0.17.1.drv-1/nixbld4/spack-stage-py-terminado-0.17.1-dbqdswlw67x94nw75vahyz8sbpdgdnkp/spack-src
+threadpoolctl @ file:///dev/shm/nix-build-py-threadpoolctl-3.1.0.drv-1/nixbld4/spack-stage-py-threadpoolctl-3.1.0-vqmzhda8kpxw0v4bifddphwb8nyzb5y6/spack-src
+tifffile @ file:///dev/shm/nix-build-py-tifffile-2023.8.30.drv-0/nixbld2/spack-stage-py-tifffile-2023.8.30-jm2gsqhavbzc2rac3mlw8zsfwd01iljv/spack-src
+tinycss2 @ file:///dev/shm/nix-build-py-tinycss2-1.2.1.drv-1/nixbld3/spack-stage-py-tinycss2-1.2.1-7p6nhzbmvp4hmhi6dka9dw3yic6h3d6r/spack-src
+tinygp==0.3.0
+toml @ file:///dev/shm/nix-build-py-toml-0.10.2.drv-1/nixbld2/spack-stage-py-toml-0.10.2-43yid0i41ajq1rv64knf3sdn4lp25l3p/spack-src
+tomli @ file:///dev/shm/nix-build-py-tomli-2.0.1.drv-0/nixbld4/spack-stage-py-tomli-2.0.1-nfyzkzw32k1kg1mkfq10figx562ygss0/spack-src
+tomli_w @ file:///dev/shm/nix-build-py-tomli-w-1.0.0.drv-1/nixbld4/spack-stage-py-tomli-w-1.0.0-nafx7n9p005fjcykmsgcbliy9bf0y0f3/spack-src
+tomlkit @ file:///dev/shm/nix-build-py-tomlkit-0.12.1.drv-1/nixbld4/spack-stage-py-tomlkit-0.12.1-g49ibmn3l987hzlyi541k9acy58gazwq/spack-src
+toolz @ file:///dev/shm/nix-build-py-toolz-0.12.0.drv-0/nixbld4/spack-stage-py-toolz-0.12.0-pj5wk1j388nbrlm5f4rz3ldbxqhjz10n/spack-src
+torch @ file:///dev/shm/nix-build-py-torch-2.2.2.drv-0/nixbld1/spack-stage-py-torch-2.2.2-mrga1lajkybghn1l6sc83lyspvbakfzk/spack-src
+torch_scatter @ file:///dev/shm/nix-build-py-torch-scatter-2.1.2.drv-0/nixbld1/spack-stage-py-torch-scatter-2.1.2-zr8pnbig3mx9nhxykp01jjir65bb8g7d/spack-src
+torchmetrics @ file:///dev/shm/nix-build-py-torchmetrics-1.3.2.drv-0/nixbld1/spack-stage-py-torchmetrics-1.3.2-10mma3rwg4zlyvanqvw60ywz83dyjrk5/spack-src
+torchvision @ file:///dev/shm/nix-build-py-torchvision-0.17.2.drv-0/nixbld1/spack-stage-py-torchvision-0.17.2-xmgmr5zlb285bp8q0fkb34z6y4c7w8k7/spack-src
+tornado @ file:///dev/shm/nix-build-py-tornado-6.3.3.drv-1/nixbld1/spack-stage-py-tornado-6.3.3-8yw9jpb13v9znnhwfsz3m1h71v3rwhhj/spack-src
+tqdm @ file:///dev/shm/nix-build-py-tqdm-4.66.1.drv-0/nixbld4/spack-stage-py-tqdm-4.66.1-jn67ymkabc3vmfi34v2ypfs8rwg2kg1w/spack-src
+traitlets @ file:///dev/shm/nix-build-py-traitlets-5.9.0.drv-0/nixbld1/spack-stage-py-traitlets-5.9.0-r9lj4v6bbaywcqcv6wb6z4z6ddsqxcfq/spack-src
+traits @ file:///dev/shm/nix-build-py-traits-6.4.2.drv-0/nixbld3/spack-stage-py-traits-6.4.2-hgk9bfl6398dsmjixmn21qbn1nf7r400/spack-src
+traitsui @ file:///dev/shm/nix-build-py-traitsui-7.2.1.drv-0/nixbld1/spack-stage-py-traitsui-7.2.1-w6b6md02dcjj1mrybsbqlg08lxnld9va/spack-src
+treescope==0.1.9
+trove-classifiers @ file:///dev/shm/nix-build-py-trove-classifiers-2023.8.7.drv-0/nixbld1/spack-stage-py-trove-classifiers-2023.8.7-fj4934h3vwzihkhrjw84w4fidxv3yd0z/spack-src
+Twisted @ file:///dev/shm/nix-build-py-twisted-21.7.0.drv-0/nixbld1/spack-stage-py-twisted-21.7.0-cyns52q7pbsyzmmyrsrn7l334sx7pag6/spack-src
+types-psutil @ file:///dev/shm/nix-build-py-types-psutil-5.9.5.16.drv-1/nixbld4/spack-stage-py-types-psutil-5.9.5.16-zhrirvyd0k56h0j4pgi5gxhdqgj5a3cj/spack-src
+types-setuptools @ file:///dev/shm/nix-build-py-types-setuptools-68.2.0.0.drv-1/nixbld3/spack-stage-py-types-setuptools-68.2.0.0-sn84h6y022s6c7cxkknvc4alp123q0gf/spack-src
+typing_extensions @ file:///dev/shm/nix-build-py-typing-extensions-4.8.0.drv-0/nixbld4/spack-stage-py-typing-extensions-4.8.0-7fi72ihl8cbyhphhjbrn9k0bzwslcmgi/spack-src
+tzdata @ file:///dev/shm/nix-build-py-tzdata-2023.3.drv-1/nixbld1/spack-stage-py-tzdata-2023.3-1hfmns0myw5fj12mafn4zjazda854j06/spack-src
+unyt @ file:///dev/shm/nix-build-py-unyt-2.9.2.drv-0/nixbld3/spack-stage-py-unyt-2.9.2-mqg8v1nh340p4788mggsf9s92dfdkc9j/spack-src
+uri_template @ file:///dev/shm/nix-build-py-uri-template-1.2.0.drv-0/nixbld4/spack-stage-py-uri-template-1.2.0-0kz0lqgbf7bxqwxyq5s2a15rrq237221/spack-src
+urllib3 @ file:///dev/shm/nix-build-py-urllib3-1.26.12.drv-0/nixbld3/spack-stage-py-urllib3-1.26.12-rs7b2w2wjmchgwhz2hja0pafvs49kx75/spack-src
+vdm @ file:///mnt/home/mlee1/diffusion%20/variational-diffusion-cdm
+versioneer @ file:///dev/shm/nix-build-py-versioneer-0.28.drv-1/nixbld3/spack-stage-py-versioneer-0.28-z8fblbzpb1b0r92qqmhs16mhs4aj838f/spack-src
+virtualenv @ file:///dev/shm/nix-build-py-virtualenv-20.24.5.drv-0/nixbld1/spack-stage-py-virtualenv-20.24.5-hi5vwaf5hf9ai0mjzqcc0vmwl32rlmyh/spack-src
+wadler_lindig==0.1.3
+wcwidth @ file:///dev/shm/nix-build-py-wcwidth-0.2.7.drv-0/nixbld3/spack-stage-py-wcwidth-0.2.7-9sdfp4r9pf0jmsb777z3683cj37x7dqm/spack-src
+webcolors @ file:///dev/shm/nix-build-py-webcolors-1.11.1.drv-0/nixbld3/spack-stage-py-webcolors-1.11.1-3nxmmmxh9d9m1yzipni6a40nf9h2sbib/spack-src
+webencodings @ file:///dev/shm/nix-build-py-webencodings-0.5.1.drv-1/nixbld4/spack-stage-py-webencodings-0.5.1-82bjilr9qr85lajnrh45srswc85gnn9l/spack-src
+websocket-client @ file:///dev/shm/nix-build-py-websocket-client-1.6.3.drv-1/nixbld4/spack-stage-py-websocket-client-1.6.3-qzk67rn6ka7pxyg5wv7w1g780nh20an1/spack-src
+Werkzeug @ file:///dev/shm/nix-build-py-werkzeug-3.0.0.drv-0/nixbld2/spack-stage-py-werkzeug-3.0.0-czx485gsivp3n8dqjw7jihw9xf1gd1nj/spack-src
+widgetsnbextension @ file:///dev/shm/nix-build-py-widgetsnbextension-4.0.3.drv-1/nixbld2/spack-stage-py-widgetsnbextension-4.0.3-v6px1j6m76jam3jhq25gyf5chyvszrjv/spack-src
+wrapt @ file:///dev/shm/nix-build-py-wrapt-1.15.0.drv-1/nixbld3/spack-stage-py-wrapt-1.15.0-l4qlsgkhjh7snrii436pnkqf0r0dma6d/spack-src
+wurlitzer @ file:///dev/shm/nix-build-py-wurlitzer-3.0.2.drv-0/nixbld4/spack-stage-py-wurlitzer-3.0.2-y7f7bpm07qix7k7ppmgkbmn5brs6g6fa/spack-src
+xarray @ file:///dev/shm/nix-build-py-xarray-2023.7.0.drv-0/nixbld3/spack-stage-py-xarray-2023.7.0-3jd0lzvlaiqxvivinnfg8ci28ifa3s8g/spack-src
+xarray-einstats @ file:///dev/shm/nix-build-py-xarray-einstats-0.5.1.drv-0/nixbld2/spack-stage-py-xarray-einstats-0.5.1-zyaky1i8kn8js07079wb9dcyny3mwi0j/spack-src
+xyzservices @ file:///dev/shm/nix-build-py-xyzservices-2023.10.1.drv-0/nixbld3/spack-stage-py-xyzservices-2023.10.1-4fhjfdhrp6i7l209da0w4f94w6y0mw0p/spack-src
+yarl @ file:///dev/shm/nix-build-py-yarl-1.9.2.drv-1/nixbld3/spack-stage-py-yarl-1.9.2-d835gf1wdyjwvjzskp5b0v9gl4s109qr/spack-src
+yt @ file:///dev/shm/nix-build-py-yt-4.1.2.drv-0/nixbld1/spack-stage-py-yt-4.1.2-js2rhpsm02lg52g3hwfxicc5n762np7y/spack-src
+zc.lockfile @ file:///dev/shm/nix-build-py-zc-lockfile-1.4.drv-0/nixbld1/spack-stage-py-zc-lockfile-1.4-bdllfr3kd9yrjdc6cmkslwr5s8shb3xp/spack-src
+zict @ file:///dev/shm/nix-build-py-zict-3.0.0.drv-0/nixbld1/spack-stage-py-zict-3.0.0-nms62c4jp0lxg1rri5h7adll05xrndk9/spack-src
+zipp @ file:///dev/shm/nix-build-py-zipp-3.17.0.drv-0/nixbld1/spack-stage-py-zipp-3.17.0-dmdksicg18xmjf859ij4rn5ab1z8hvjp/spack-src
+zope.event @ file:///dev/shm/nix-build-py-zope-event-4.6.drv-0/nixbld1/spack-stage-py-zope-event-4.6-kc3xhfbql0wv1kpbbxns2zv7mxphjf1i/spack-src
+zope.interface @ file:///dev/shm/nix-build-py-zope-interface-5.4.0.drv-0/nixbld1/spack-stage-py-zope-interface-5.4.0-yss8fk8kvd4kd1yzpb991s6ff3b4mkk2/spack-src
