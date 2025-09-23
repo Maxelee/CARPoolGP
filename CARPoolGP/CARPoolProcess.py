@@ -67,6 +67,43 @@ def loss_nocorr(params, theta, surrogate_theta, Y, threshold):
 #    cov   = C + noise
 #    return cov
 
+#@jax.jit
+#def build_CARPoolCov_nocorr(params, theta, surrogate_theta, noise=0, threshold=8):
+#    N_theta = len(theta)
+#    N_surrogates = len(surrogate_theta)
+#    t = jnp.concatenate((theta, surrogate_theta))
+#    
+#    # Separate scales for physics vs mass
+#    #physics_scaleV = jnp.exp(params["log_scaleV"][:-1])  # First N-1 parameters
+#    #mass_scaleV = jnp.exp(params["log_scaleV"][-1])      # Last parameter (mass)
+#    
+#    #physics_ampV = jnp.exp(params["log_ampV"][:-1])
+#    #mass_ampV = jnp.exp(params["log_ampV"][-1])
+#    
+#    # Use Matern kernel instead of RBF
+##    Vkernel = CARPoolKernels.MaternKernel(physics_scaleV, physics_ampV, nu=2.5)
+#    # Or use composite kernel
+##    Vkernel = CARPoolKernels.CompositeKernel(physics_scaleV, mass_scaleV, physics_ampV, mass_ampV)
+##    Vkernel = CARPoolKernels.AdditiveCompositeKernel(physics_scaleV, mass_scaleV, physics_ampV, mass_ampV)
+#    Vkernel = CARPoolKernels.ARDKernel(jnp.exp(params['log_scaleV']), jnp.exp(params['log_ampV']))
+#    
+#    C = Vkernel(t, t)
+#    
+#    if noise is None:
+#        return C
+#    
+#    # Heteroscedastic noise (different noise for different mass ranges)
+#    base_jitter = jnp.exp(params["log_jitterV"])**2
+#    
+#    # Optional: mass-dependent noise
+#    # mass_values = t[:, -1]  # Assuming mass is last column
+#    # noise_scale = 1.0 + 0.1 * mass_values  # Example: more noise at higher masses
+#    # IsigmaV = base_jitter * jnp.diag(noise_scale)
+#    
+#    IsigmaV = base_jitter * jnp.eye(N_theta + N_surrogates)
+#    cov = C + IsigmaV
+#    return cov
+
 @jax.jit
 def build_CARPoolCov_nocorr(params, theta, surrogate_theta, noise=0, threshold=8):
     N_theta     = len(theta)

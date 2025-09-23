@@ -66,9 +66,10 @@ class Emulator:
             else:
                 params = self.params
         self.threshold=threshold
-        #opt = optax.sgd(learning_rate=learning_rate, momentum=0.8)#, nesterov=True)
+        #opt = optax.sgd(learning_rate=learning_rate, momentum=0.5)#, nesterov=True)
         #opt = optax.amsgrad(learning_rate=learning_rate)
-        opt = optax.adamax(learning_rate=learning_rate)
+        #opt = optax.adamax(learning_rate=learning_rate)
+        opt = optax.adam(learning_rate=learning_rate)
         opt_state = opt.init(params)
         try:
             self.param_evolution[0]

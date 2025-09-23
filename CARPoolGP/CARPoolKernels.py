@@ -123,4 +123,94 @@ class EKernel(kernels.Kernel):
         x = jnp.atleast_1d(jnp.sqrt((X2 - X1)**2))
         return jnp.prod(jnp.exp(-0.5 * x/ self.scales**2))
     
+class MaternKernel(kernels.Kernel):
+    """
+    Matern kernel - more flexible than RBF
+    """
+    scales: jax.Array
+    amp: jax.Array
+    nu: float = 2.5  # Smoothness parameter
 
+    def evaluate(self, X1, X2):
+        x = jnp.atleast_1d(jnp.sqrt(jnp.sum((X2 - X1)**2 / self.scales**2)))
+        
+        if self.nu == 0.5:
+            # Exponential kernel
+            return self.amp * jnp.exp(-x)
+        elif self.nu == 1.5:
+            # Matern 3/2
+            sqrt3_x = jnp.sqrt(3) * x
+            return self.amp * (1 + sqrt3_x) * jnp.exp(-sqrt3_x)
+        elif self.nu == 2.5:
+            # Matern 5/2 - good default
+            sqrt5_x = jnp.sqrt(5) * x
+            return self.amp * (1 + sqrt5_x + (5 * x**2) / 3) * jnp.exp(-sqrt5_x)
+        else:
+            # General Matern (more expensive)
+            from jax.scipy.special import gamma, kv
+            term1 = (2**(1-self.nu)) / gamma(self.nu)
+            term2 = (jnp.sqrt(2*self.nu) * x)**self.nu
+            term3 = kv(self.nu, jnp.sqrt(2*self.nu) * x)
+            return self.amp * term1 * term2 * term3
+
+class CompositeKernel(kernels.Kernel):
+    """
+    Separate treatment for physics parameters vs mass
+    """
+    physics_scales: jax.Array  # For first N-1 dimensions
+    mass_scale: float          # For last dimension (mass)
+    physics_amp: jax.Array
+    mass_amp: float
+    
+    def evaluate(self, X1, X2):
+        # Split physics and mass dimensions
+        physics_diff = (X2[:-1] - X1[:-1]) / self.physics_scales
+        mass_diff = (X2[-1] - X1[-1]) / self.mass_scale
+        
+        # Matern 5/2 for physics
+        physics_dist = jnp.sqrt(jnp.sum(physics_diff**2))
+        sqrt5_phys = jnp.sqrt(5) * physics_dist
+        physics_kernel = jnp.prod(self.physics_amp) * (1 + sqrt5_phys + (5 * physics_dist**2) / 3) * jnp.exp(-sqrt5_phys)
+        
+        # RBF for mass (smooth scaling relation)
+        mass_kernel = self.mass_amp * jnp.exp(-0.5 * mass_diff**2)
+        
+        return physics_kernel * mass_kernel
+
+class AdditiveCompositeKernel(kernels.Kernel):
+    """
+    Additive composite kernel - more numerically stable
+    """
+    physics_scales: jax.Array
+    mass_scale: float
+    physics_amp: jax.Array
+    mass_amp: float
+    
+    def evaluate(self, X1, X2):
+        # Split dimensions
+        physics_diff = (X2[:-1] - X1[:-1]) / self.physics_scales
+        mass_diff = (X2[-1] - X1[-1]) / self.mass_scale
+        
+        # Physics kernel (Matern 5/2)
+        physics_dist = jnp.sqrt(jnp.sum(physics_diff**2))
+        sqrt5_phys = jnp.sqrt(5) * physics_dist
+        physics_kernel = jnp.prod(self.physics_amp) * (1 + sqrt5_phys + (5 * physics_dist**2) / 3) * jnp.exp(-sqrt5_phys)
+        
+        # Mass kernel (RBF)
+        mass_kernel = self.mass_amp * jnp.exp(-0.5 * mass_diff**2)
+        
+        # ADD instead of multiply - much more stable
+        return physics_kernel + mass_kernel
+
+class ARDKernel(kernels.Kernel):
+    """
+    RBF kernel with different length scales per dimension
+    """
+    scales: jax.Array  # One scale per dimension
+    amp: float         # Single amplitude
+    
+    def evaluate(self, X1, X2):
+        # Weighted distance - each dimension has its own scale
+        diff = (X2 - X1) / self.scales
+        dist_sq = jnp.sum(diff**2)
+        return self.amp * jnp.exp(-0.5 * dist_sq)
